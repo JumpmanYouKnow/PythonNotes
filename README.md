@@ -49,7 +49,7 @@ OR
 .orderBy('Year', ascending=False)
 
 #### 7. filter
-In pyspark, filter on dataframe doesn't take functions that returns a boolean,
+In pyspark, filter on dataframe doesn't take functions that returns a boolean, \n
 it only takes SQL experssion that returns a boolean
 If you want it to take a boolean function, use udf, sample: 
 
