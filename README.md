@@ -58,11 +58,11 @@ If you want it to take a boolean function, use udf, sample:
 @F.udf(returnType=BooleanType())\
 def my_filter(col):\
   func\
-  return Boolean \    
+  return Boolean\    
 df.filter(my_filter('col')).show()\
 Make sure includes:\
-from pyspark.sql import functions as F \
-from pyspark.sql.types import BooleanType \
+from pyspark.sql import functions as F\
+from pyspark.sql.types import BooleanType\
 
 
 Pandas
