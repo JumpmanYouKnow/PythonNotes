@@ -49,20 +49,20 @@ OR
 .orderBy('Year', ascending=False)
 
 #### 7. filter
-In pyspark, filter on dataframe doesn't take functions that returns a boolean, 
-
-it only takes SQL experssion that returns a boolean
-
+In pyspark, filter on dataframe doesn't take functions that returns a boolean,\
+it only takes SQL experssion that returns a boolean\
 If you want it to take a boolean function, use udf, sample: 
 
 @F.udf(returnType=BooleanType())\
 def my_filter(col):\
   func\
-  return Boolean\    
+  return Boolean\
+  
 df.filter(my_filter('col')).show()\
 Make sure includes:\
 from pyspark.sql import functions as F\
-from pyspark.sql.types import BooleanType\
+from pyspark.sql.types import BooleanType
+
 
 
 Pandas
