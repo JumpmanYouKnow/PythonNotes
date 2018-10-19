@@ -18,6 +18,7 @@ spark = SparkSession \
   df_demand = spark.read\
         .format("com.databricks.spark.csv")\
         .option("header", "true")\
+        .option("inferSchema", "true")\
         .option("mode", "DROPMALFORMED")\
         .option("delimiter", "|")\
         .load(demand_data)
@@ -63,6 +64,15 @@ Make sure includes:\
 from pyspark.sql import functions as F\
 from pyspark.sql.types import BooleanType
 
+#### 8. Inferschema dependency:
+NullType
+IntegerType
+LongType
+DecimalType
+DoubleType
+TimestampType
+BooleanType
+StringType
 
 
 Pandas
