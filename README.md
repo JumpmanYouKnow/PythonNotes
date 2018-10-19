@@ -55,8 +55,8 @@ If you want it to take a boolean function, use udf, sample:
 
 @F.udf(returnType=BooleanType())\
 def my_filter(col):\
-&npspfunc\
-&npspreturn Boolean
+&npsp; func\
+&npsp; return Boolean
   
 df.filter(my_filter('col')).show()\
 Make sure includes:\
