@@ -38,6 +38,16 @@ select("col name").distinct()
 #### 5. spark df to pandas df
 .toPandas() # cost is expensive, try to minimum use it! it's an action, collect all the data to the driver
 
+#### 6.sort by col, (descending)
+from pyspark.sql.functions import desc
+
+(group_by_dataframe
+    .count()
+    .filter("`count` >= 10")
+    .sort(desc("count"))
+OR
+.orderBy('Year', ascending=False)
+    
 Pandas
 ---------------------
 #### 1. Collect dataframe as dictionary
