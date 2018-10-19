@@ -44,8 +44,8 @@ from pyspark.sql.functions import desc
 (group_by_dataframe
     .count()
     .filter("`count` >= 10")
-    .sort(desc("count"))
-OR
+    .sort(desc("count"))\
+OR\
 .orderBy('Year', ascending=False)
 
 #### 7. filter
