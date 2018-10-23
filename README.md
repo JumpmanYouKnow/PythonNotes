@@ -81,7 +81,7 @@ Pandas
 .set_index(['a','b']).T.to_dict('list')
 
 
-Packages
+Other useful ackages
 ---------------------
 #### 1. track memory usage line by line
 https://pypi.org/project/memory_profiler/
