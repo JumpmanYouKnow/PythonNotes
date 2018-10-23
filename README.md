@@ -79,3 +79,12 @@ Pandas
 ---------------------
 #### 1. Collect dataframe as dictionary
 .set_index(['a','b']).T.to_dict('list')
+
+
+Packages
+---------------------
+#### 1. track memory usage line by line
+https://pypi.org/project/memory_profiler/
+
+#### 2. track run time for each line
+https://pypi.org/project/line_profiler/
