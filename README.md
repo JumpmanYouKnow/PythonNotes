@@ -74,6 +74,12 @@ TimestampType\
 BooleanType\
 StringType
 
+#### 9. Operation on column
+ df.withColumn('col', df_demand["col"].func())
+#### 10. Partition by index
+.mapPartitionsWithIndex(lambda idx, it: islice(it, 1, None) if idx == 0 else it)\
+this get rid of the first line(rdd) in the file. 
+
 
 Pandas
 ---------------------
