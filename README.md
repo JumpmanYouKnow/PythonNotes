@@ -87,10 +87,17 @@ Pandas
 .set_index(['a','b']).T.to_dict('list')
 
 
-Other useful ackages
+Other useful packages
 ---------------------
 #### 1. track memory usage line by line
 https://pypi.org/project/memory_profiler/
 
 #### 2. track run time for each line
 https://pypi.org/project/line_profiler/
+
+#### 3.  
+difference between list[0,1,2,3,4] and range(0,5) in python 3.0+
+ie: difference between range(0,5) and xrange(0,5) in python before 3.0
+
+the former one needs to allocate the actuall space on memory, the later one doesn't have to.
+The later ones returns a object similar to iterator, (but allows random access), so allocate memory on demand.
