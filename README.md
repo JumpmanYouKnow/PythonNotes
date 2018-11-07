@@ -104,3 +104,15 @@ ie: difference between range(0,5) and xrange(0,5) in python before 3.0
 
 the former one needs to allocate the actuall space on memory, the later one doesn't have to.
 The later ones returns a object similar to iterator, (but allows random access), so allocate memory on demand.
+
+Generic Python
+---------------------
+
+#### 1. Open file, read, write
+Open: f = open(“hello.text”, flag), flag: 'r' = read, 'b' = binary, 'w' = write
+read sing line:
+f.readline() 
+read a list of lines:
+f.readlines()
+read whole file as string:
+f.read()
