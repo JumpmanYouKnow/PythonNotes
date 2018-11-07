@@ -86,6 +86,9 @@ Pandas
 #### 1. Collect dataframe as dictionary
 .set_index(['a','b']).T.to_dict('list')
 
+#### 2. Read in csv file format 
+https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html
+
 
 Other useful packages
 ---------------------
