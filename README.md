@@ -4,9 +4,30 @@ Pyspark, Pandas, Numpy and etc
 
 Pyspark
 ---------------------
-### 1. read csv file into dataframe, with separator
+### 1. initilaztion
 
-#### 1.
+#### 1. spark session
+from pyspark.sql import SparkSession
+spark = SparkSession \
+    .builder \
+    .appName("name") \
+    .config("spark.some.config.option", "some-value") \
+    .getOrCreate()
+
+#### 2. spark context
+
+conf = SparkConf().setAppName("KMeans").setMaster("local[*]")  
+sc = SparkContext(conf =conf)  
+or  
+sc = SparkContext.getOrCreate(conf)
+
+
+### 2. paritition by index
+.mapPartitionsWithIndex(lambda idx, it: islice(it, 1, None) if idx == 0 else it)\
+this get rid of the first line(rdd) in the file. 
+
+### 3. opeartions of spark dataframe
+#### 1. read csv file into dataframe, with separator
 from pyspark.sql import SparkSession
 
 spark = SparkSession \
@@ -76,9 +97,8 @@ StringType
 
 #### 9. Operation on column
  df.withColumn('col', df_demand["col"].func())
-#### 10. Partition by index
-.mapPartitionsWithIndex(lambda idx, it: islice(it, 1, None) if idx == 0 else it)\
-this get rid of the first line(rdd) in the file. 
+
+
 
 
 Pandas
