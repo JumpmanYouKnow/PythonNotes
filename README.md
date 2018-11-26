@@ -48,11 +48,17 @@ spark = SparkSession \
 https://www.analyticsvidhya.com/blog/2016/10/spark-dataframe-and-operations/
 
 #### 3. read dictionary into spark dataframe
-1. dict -> pandas.df -> spark.df
-https://stackoverflow.com/questions/43751509/how-to-create-new-dataframe-with-dict?rq=1
-2.  dict -> spark.rdd (json rdd) -> json parser -> spark.df
-https://stackoverflow.com/questions/51774796/how-to-convert-dictionary-to-data-frame-in-pyspark
+1. dict -> pandas.df -> spark.df  
+https://stackoverflow.com/questions/43751509/how-to-create-new-dataframe-with-dict?rq=1  
+2.  dict -> spark.rdd (json rdd) -> json parser -> spark.df  
+https://stackoverflow.com/questions/51774796/how-to-convert-dictionary-to-data-frame-in-pyspark  
 
+Note:
+when use pandas df to create spark df, if you want to perserve indices,  
+use: spark_df = spark.createDataFrame(pandasdf.reset_index(drop=False))  
+must have reset_index(drop=False) to preserve indices, as spark SQL has no concept of index  
+
+# spark SQL has no concept of index
 $ ./bin/pyspark --packages com.databricks:spark-csv_2.10:1.3.0
 
 train = sqlContext.load(source="com.databricks.spark.csv", path = 'PATH/train.csv', header = True,inferSchema = True)
