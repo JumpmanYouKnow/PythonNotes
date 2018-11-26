@@ -44,8 +44,14 @@ spark = SparkSession \
         .option("delimiter", "|")\
         .load(demand_data)
 
-#### 2.
+#### 2. Basic Operations
 https://www.analyticsvidhya.com/blog/2016/10/spark-dataframe-and-operations/
+
+#### 3. read dictionary into spark dataframe
+1. dict -> pandas.df -> spark.df
+https://stackoverflow.com/questions/43751509/how-to-create-new-dataframe-with-dict?rq=1
+2.  dict -> spark.rdd (json rdd) -> json parser -> spark.df
+https://stackoverflow.com/questions/51774796/how-to-convert-dictionary-to-data-frame-in-pyspark
 
 $ ./bin/pyspark --packages com.databricks:spark-csv_2.10:1.3.0
 
