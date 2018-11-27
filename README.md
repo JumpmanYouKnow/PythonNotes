@@ -148,3 +148,10 @@ read a list of lines:
 f.readlines()
 read whole file as string:
 f.read()
+
+#### 2.  look up table of element, origin index -> the sorted index
+idx = np.argsort()
+lut = np.zeros_like(idx)  
+lut[idx] = np.arange(len(origin_list))
+
+lut[origin_index] = sorted_index
