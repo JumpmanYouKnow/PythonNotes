@@ -7,7 +7,7 @@ Pyspark
 ### 1. initilaztion
 
 #### 1. spark session
-from pyspark.sql import SparkSession
+from pyspark.sql import SparkSession  
 spark = SparkSession \
     .builder \
     .appName("name") \
