@@ -17,7 +17,7 @@ spark = SparkSession \
 #### 2. spark context
 ##### 1. from spark session
 sc = spark.sparkContext
-##### 2. from spark session
+##### 2. from spark context
 conf = SparkConf().setAppName("KMeans").setMaster("local[*]")  
 sc = SparkContext(conf =conf)  
 or  
