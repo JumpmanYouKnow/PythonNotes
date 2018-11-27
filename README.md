@@ -108,7 +108,7 @@ BooleanType\
 StringType
 
 #### 9. Operation on column
- df.withColumn('col', df_demand["col"].func())
+ df.withColumn('new column', udf('old column')))
 
 
 
