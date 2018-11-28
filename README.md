@@ -37,6 +37,7 @@ this get rid of the first line(rdd) in the file.
 
 ### 3. opeartions of spark dataframe
 #### 1. read csv file into dataframe, with separator
+```Python
 from pyspark.sql import SparkSession
 
 spark = SparkSession \
@@ -52,7 +53,7 @@ spark = SparkSession \
         .option("mode", "DROPMALFORMED")\
         .option("delimiter", "|")\
         .load(demand_data)
-
+```
 #### 2. Basic Operations
 https://www.analyticsvidhya.com/blog/2016/10/spark-dataframe-and-operations/
 
@@ -63,21 +64,15 @@ https://stackoverflow.com/questions/43751509/how-to-create-new-dataframe-with-di
 https://stackoverflow.com/questions/51774796/how-to-convert-dictionary-to-data-frame-in-pyspark  
 
 
-
 Note:
 when use pandas df to create spark df, if you want to perserve indices,  
 use: spark_df = spark.createDataFrame(pandasdf.reset_index(drop=False))  
 must have reset_index(drop=False) to preserve indices, as spark SQL has no concept of index  
 
-# spark SQL has no concept of index
-$ ./bin/pyspark --packages com.databricks:spark-csv_2.10:1.3.0
-
-train = sqlContext.load(source="com.databricks.spark.csv", path = 'PATH/train.csv', header = True,inferSchema = True)
-
 #### 3. Unique value of a column
 select("col name").distinct()
-
-#### 4. drop value
+.drop("col name")
+#### 4. drop col
 .drop("col name")
 
 #### 5. spark df to pandas df
@@ -108,7 +103,22 @@ Make sure includes:\
 from pyspark.sql import functions as F\
 from pyspark.sql.types import BooleanType
 
-#### 8. Inferschema dependency:
+#### 8. map on column
+ df.withColumn('new column', udf('old column')))
+
+#### 9. coalesce and repartition
+repartition(n) = coalesce(n, shuffle = true)
+
+### 4. Wide dependency and narrow dependency, 
+
+Orgin we have M partitions, we repartiton to N partitions.  
+narrow dependency, usually we have M > N, like Map, doesn't triger shuffle  
+when M is greatly larger than N, it's better to manually triger shuffle, otherwise  
+it affects parallelization and performance.  
+  
+Wide dependency, usually we have M < N, like Join, groupByKey, triger shuffle  
+
+### 5. Inferschema dependency:
 NullType\
 IntegerType\
 LongType\
@@ -118,21 +128,6 @@ TimestampType\
 BooleanType\
 StringType
 
-#### 9. Operation on column
- df.withColumn('new column', udf('old column')))
-
-#### 10. Wide dependency and narrow dependency, 
-
-Orgin we have M partitions, we repartiton to N partitions.  
-narrow dependency, usually we have M > N, like Map, doesn't triger shuffle  
-when M is greatly larger than N, it's better to manually triger shuffle, otherwise  
-it affects parallelization and performance.  
-  
-Wide dependency, usually we have M < N, like Join, groupByKey, triger shuffle  
-
-
-#### 11. coalesce and repartition
-repartition(n) = coalesce(n, shuffle = true)
 
 Pandas
 ---------------------
