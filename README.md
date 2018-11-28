@@ -55,6 +55,8 @@ https://stackoverflow.com/questions/43751509/how-to-create-new-dataframe-with-di
 2.  dict -> spark.rdd (json rdd) -> json parser -> spark.df  
 https://stackoverflow.com/questions/51774796/how-to-convert-dictionary-to-data-frame-in-pyspark  
 
+
+
 Note:
 when use pandas df to create spark df, if you want to perserve indices,  
 use: spark_df = spark.createDataFrame(pandasdf.reset_index(drop=False))  
@@ -167,3 +169,14 @@ lut = np.zeros_like(idx)
 lut[idx] = np.arange(len(origin_list))
 
 lut[origin_index] = sorted_index
+
+#### 3. load object and save object
+def save_obj(obj, name ):
+    with open('obj/'+ name + '.pkl', 'wb') as f:
+        pickle.dump(obj, f, pickle.HIGHEST_PROTOCOL)
+
+def load_obj(name ):
+    with open('obj/' + name + '.pkl', 'rb') as f:
+        return pickle.load(f)
+
+
