@@ -112,8 +112,18 @@ StringType
 #### 9. Operation on column
  df.withColumn('new column', udf('old column')))
 
+#### 10. Wide dependency and narrow dependency, 
+
+Orgin we have M partitions, we repartiton to N partitions.  
+narrow dependency, usually we have M > N, like Map, doesn't triger shuffle  
+when M is greatly larger than N, it's better to manually triger shuffle, otherwise  
+it affects parallelization and performance.  
+  
+Wide dependency, usually we have M < N, like Join, groupByKey, triger shuffle  
 
 
+#### 11. coalesce and repartition
+repartition(n) = coalesce(n, shuffle = true)
 
 Pandas
 ---------------------
