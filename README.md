@@ -171,10 +171,11 @@ lut[idx] = np.arange(len(origin_list))
 lut[origin_index] = sorted_index
 
 #### 3. load object and save object
+```Python
 def save_obj(obj, name ):
     with open('obj/'+ name + '.pkl', 'wb') as f:
         pickle.dump(obj, f, pickle.HIGHEST_PROTOCOL)
-
+```
 def load_obj(name ):
     with open('obj/' + name + '.pkl', 'rb') as f:
         return pickle.load(f)
