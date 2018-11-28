@@ -7,26 +7,33 @@ Pyspark
 ### 1. initilaztion
 
 #### 1. spark session
+```Python
 from pyspark.sql import SparkSession  
 spark = SparkSession \
     .builder \
     .appName("name") \
     .config("spark.some.config.option", "some-value") \
     .getOrCreate()
+```
 
 #### 2. spark context
 ##### 1. from spark session
+```Python
 sc = spark.sparkContext
+```
 ##### 2. from spark context
+```Python
 conf = SparkConf().setAppName("KMeans").setMaster("local[*]")  
 sc = SparkContext(conf =conf)  
 or  
 sc = SparkContext.getOrCreate(conf)
-
+```
 
 ### 2. paritition by index
+```Python
 .mapPartitionsWithIndex(lambda idx, it: islice(it, 1, None) if idx == 0 else it)\
 this get rid of the first line(rdd) in the file. 
+```
 
 ### 3. opeartions of spark dataframe
 #### 1. read csv file into dataframe, with separator
