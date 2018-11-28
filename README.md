@@ -155,6 +155,7 @@ Generic Python
 ---------------------
 
 #### 1. Open file, read, write
+```Python
 Open: f = open(“hello.text”, flag), flag: 'r' = read, 'b' = binary, 'w' = write
 read sing line:
 f.readline() 
@@ -162,22 +163,25 @@ read a list of lines:
 f.readlines()
 read whole file as string:
 f.read()
-
+```
 #### 2.  look up table of element, origin index -> the sorted index
+```Python
 idx = np.argsort()
 lut = np.zeros_like(idx)  
 lut[idx] = np.arange(len(origin_list))
 
 lut[origin_index] = sorted_index
+```
 
 #### 3. load object and save object
 ```Python
 def save_obj(obj, name ):
     with open('obj/'+ name + '.pkl', 'wb') as f:
         pickle.dump(obj, f, pickle.HIGHEST_PROTOCOL)
-```
+
 def load_obj(name ):
     with open('obj/' + name + '.pkl', 'rb') as f:
         return pickle.load(f)
+```
 
 
