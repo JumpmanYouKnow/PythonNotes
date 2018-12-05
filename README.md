@@ -1,5 +1,6 @@
 # PythonNotes
-Pyspark, Pandas, Numpy and etc
+Cheat notes for 
+Pyspark, Pandas, Numpy, NLTK, Keras, Tensorflow and etc
 
 
 Pyspark
@@ -146,13 +147,12 @@ https://pypi.org/project/memory_profiler/
 #### 2. track run time for each line
 https://pypi.org/project/line_profiler/
 
-#### 3.  
-difference between list[0,1,2,3,4] and range(0,5) in python 3.0+
-ie: difference between range(0,5) and xrange(0,5) in python before 3.0
+#### 3. regular expression
+https://docs.python.org/3/library/re.html
 
-the former one needs to allocate the actuall space on memory, the later one doesn't have to.
-The later ones returns a object similar to iterator, (but allows random access), so allocate memory on demand.
-
+#### 4. google word to vector, trained model
+GoogleNews-vectors-negative300.bin
+https://code.google.com/archive/p/word2vec/
 
 NLTK
 ---------------------
@@ -214,5 +214,12 @@ def load_obj(name ):
     with open('obj/' + name + '.pkl', 'rb') as f:
         return pickle.load(f)
 ```
+
+#### 4.  
+difference between list[0,1,2,3,4] and range(0,5) in python 3.0+
+ie: difference between range(0,5) and xrange(0,5) in python before 3.0
+
+the former one needs to allocate the actuall space on memory, the later one doesn't have to.
+The later ones returns a object similar to iterator, (but allows random access), so allocate memory on demand.
 
 
