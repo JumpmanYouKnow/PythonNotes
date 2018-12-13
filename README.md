@@ -139,7 +139,7 @@ Pandas
 https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html
 
 #### 3. count rows with same value
-df.apply(df.value_counts)
+df[col].value_counts()
 
 Other useful packages
 ---------------------
