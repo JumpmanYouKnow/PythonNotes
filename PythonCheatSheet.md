@@ -1,4 +1,7 @@
-Generic Python
+---
+title: "Generic Python"
+date: 2019-04-08
+---
 ---------------------
 
 #### 1. Open file, read, write
@@ -41,12 +44,13 @@ def load_obj(name ):
 #### 4.  
 ```Python
 difference between list[0,1,2,3,4] and range(0,5) in python 3.0+
-ie: difference between range(0,5) and xrange(0,5) in python before 3.0
+difference between range(0,5) and xrange(0,5) in python before 3.0)
 
 the former one needs to allocate the actuall space on memory, the later one doesn't have to.
-The later ones returns a object similar to iterator, (but allows random access), so allocate memory on demand.
-
+The later ones returns a range object( a iterable object similar to iteratorbut allows random access), so allocate memory on demand.
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNTU0MDIwMiwxMTkzNTE5MzgwXX0=
+eyJoaXN0b3J5IjpbMTA2NTk4MDQ1NCwxNjI1NTQwMjAyLDExOT
+M1MTkzODBdfQ==
 -->
