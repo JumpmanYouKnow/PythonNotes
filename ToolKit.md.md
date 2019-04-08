@@ -1,4 +1,7 @@
-Other useful packages
+---
+title: "Useful tool kit"
+date: 2019-04-08
+---
 ---------------------
 #### 1. track memory usage line by line
 https://pypi.org/project/memory_profiler/
@@ -14,5 +17,5 @@ GoogleNews-vectors-negative300.bin
 https://code.google.com/archive/p/word2vec/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM4Nzc0MzI3XX0=
+eyJoaXN0b3J5IjpbLTEwMDQ3NzE2OF19
 -->
