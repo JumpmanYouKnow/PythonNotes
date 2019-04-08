@@ -15,14 +15,13 @@ f.read()
 ```Python
 import sys
 #read 2 numbers from  one line
-line = sys.stdin.readline().strip()
-(n, k) = (map(int, line.split()))
+for line in sys.stdin.readlines():
+	line_list = map(int, line.split()))
 
 #read a one line list
 mylist = sys.stdin.readline().strip()
 
 #read multiple lines
-for line in sys.stdin
 ```
 #### 2.  look up table of element, origin index -> the sorted index
 ```Python
@@ -53,5 +52,5 @@ The later ones returns a object similar to iterator, (but allows random access),
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MzUxOTM4MF19
+eyJoaXN0b3J5IjpbNDc1MjU1OTQ1LDExOTM1MTkzODBdfQ==
 -->
