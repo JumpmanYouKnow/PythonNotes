@@ -1,4 +1,8 @@
-NLTK
+NLTK---
+title: "NLTK"
+date: 2019-04-08T22:38:04+08:00
+draft: false
+---
 ---------------------
 #### 1. tokenize
 https://www.nltk.org/_modules/nltk/tokenize.html
@@ -23,5 +27,5 @@ word tokenizer:
 word_tokenize(text, language='english', preserve_line=False)
 perserve_line == false, then call sentence tokenizer first, otherwise, don't
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5OTk0MDUxN119
+eyJoaXN0b3J5IjpbMTAwODM5Mzg5MCwxODk5OTQwNTE3XX0=
 -->
