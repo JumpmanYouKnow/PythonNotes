@@ -15,7 +15,7 @@ f.read()
 ```Python
 import sys
 for line in sys.stdin.readlines():
-	#convert each line from a string to a list 
+	#convert each line from a string to a list of integer
 	line_list = (map(int, line.split()))
 ```
 #### 2.  look up table of element, origin index -> the sorted index
@@ -39,6 +39,7 @@ def load_obj(name ):
 ```
 
 #### 4.  
+```Python
 difference between list[0,1,2,3,4] and range(0,5) in python 3.0+
 ie: difference between range(0,5) and xrange(0,5) in python before 3.0
 
@@ -47,5 +48,5 @@ The later ones returns a object similar to iterator, (but allows random access),
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAyMzcyOTc3LDExOTM1MTkzODBdfQ==
+eyJoaXN0b3J5IjpbMTYyNTU0MDIwMiwxMTkzNTE5MzgwXX0=
 -->
