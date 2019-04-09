@@ -1,5 +1,7 @@
+---
 title: "Difference between Multi-Processing, Multi-threading and Coroutine"
 date: 2019-04-08
+---
 
 ## What is a process
 ### For distributing
@@ -9,5 +11,5 @@ date: 2019-04-08
 ### Why we prefer coroutine in Python
 ### Tornado, Greentlet, Gevent
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg0MTYwNjBdfQ==
+eyJoaXN0b3J5IjpbMTMzOTMxMTc1Miw1ODQxNjA2MF19
 -->
