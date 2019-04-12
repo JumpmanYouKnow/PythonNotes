@@ -4,6 +4,7 @@ date: 2019-04-08
 ---
 
 ## What is a process
+
 ### For distributing
 ## What is a thread
 ### Advantage
@@ -11,5 +12,5 @@ date: 2019-04-08
 ### Why we prefer coroutine in Python
 ### Tornado, Greentlet, Gevent
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzOTMxMTc1Miw1ODQxNjA2MF19
+eyJoaXN0b3J5IjpbLTE4MDg4MzA3NTgsNTg0MTYwNjBdfQ==
 -->
