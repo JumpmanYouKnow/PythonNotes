@@ -1,6 +1,6 @@
 ---
 title: "Pandas Cheat Sheet"
-date: 2019-04-08
+date: 2018-09-08
 ---
 ---------------------
 #### 1. Collect dataframe as dictionary
@@ -30,5 +30,5 @@ or:
 df.groupby(by=value).filter(lambda x: len(x) > n)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNjY2MTkxNF19
+eyJoaXN0b3J5IjpbMTkxNTE2MzcwMCwxODM2NjYxOTE0XX0=
 -->
