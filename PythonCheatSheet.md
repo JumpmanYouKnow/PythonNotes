@@ -1,5 +1,5 @@
 ---
-title: "Generic Python"
+title: "Python CheatSheet"
 date: 2019-04-08
 ---
 ---------------------
@@ -51,6 +51,6 @@ The later ones returns a range object( a iterable object similar to iteratorbut 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NTk4MDQ1NCwxNjI1NTQwMjAyLDExOT
-M1MTkzODBdfQ==
+eyJoaXN0b3J5IjpbMTIyMjE3MTYzLDEwNjU5ODA0NTQsMTYyNT
+U0MDIwMiwxMTkzNTE5MzgwXX0=
 -->
