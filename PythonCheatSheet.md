@@ -2,6 +2,7 @@
 title: "Python CheatSheet"
 date: 2019-04-08
 ---
+### Some ve
 ---------------------
 
 #### 1. Open file, read, write
@@ -51,6 +52,6 @@ The later ones returns a range object( a iterable object similar to iteratorbut 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMjE3MTYzLDEwNjU5ODA0NTQsMTYyNT
+eyJoaXN0b3J5IjpbMjQyNTIxOTAzLDEwNjU5ODA0NTQsMTYyNT
 U0MDIwMiwxMTkzNTE5MzgwXX0=
 -->
