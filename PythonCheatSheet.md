@@ -2,7 +2,7 @@
 title: "Python CheatSheet"
 date: 2019-04-08
 ---
-##### This note is used to remind me some very basic but easy to forget operations 
+##### This cheatsheet includes some very basic but easy to forget operations and some random notes.
 ##### [A good tutorial for beginner in Chinese](https://gist.github.com/SEKIRO-J/217f84929b37d40b827abbb1b6796342)
 ---------------------
 
@@ -53,6 +53,6 @@ The later ones returns a range object( a iterable object similar to iteratorbut 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU4ODUxOCwxMDY1OTgwNDU0LDE2MjU1ND
-AyMDIsMTE5MzUxOTM4MF19
+eyJoaXN0b3J5IjpbMTY4OTQ1MDI2MywxMDY1OTgwNDU0LDE2Mj
+U1NDAyMDIsMTE5MzUxOTM4MF19
 -->
