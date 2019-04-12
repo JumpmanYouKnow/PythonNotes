@@ -5,6 +5,16 @@ date: 2019-04-08
 ##### This cheatsheet includes some very basic but easy to forget operations and some random notes.
 ##### [A good tutorial for beginner in Chinese](https://gist.github.com/SEKIRO-J/217f84929b37d40b827abbb1b6796342)
 ---------------------
+#### 1. Decorator Syntax
+```Python
+def decorator(func):  
+	def new_func(*args, **argkw):  
+		#add stuff   
+		return func(*args, **argkw)
+return new_func  
+@decorator  
+def f(args):pass
+```
 
 #### 1. Open file, read, write
 ```Python
@@ -53,6 +63,6 @@ The later ones returns a range object( a iterable object similar to iteratorbut 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4OTQ1MDI2MywxMDY1OTgwNDU0LDE2Mj
-U1NDAyMDIsMTE5MzUxOTM4MF19
+eyJoaXN0b3J5IjpbNzY5NDQxMjg5LDEwNjU5ODA0NTQsMTYyNT
+U0MDIwMiwxMTkzNTE5MzgwXX0=
 -->
