@@ -14,15 +14,20 @@ Many threads live in a process, only one thread can own the process, when they o
 
 **Concurrent**: Thread A and Thread B are in same process, takes turns to own the process,  yield when waiting for resources or scheduled cpu time is used up.
 Use case is dealing with I/O-intensive tasks.
+
+
 **Parallel**: Thread A and Thread B are in different processes, execute at the same.
 Use case is dealing with CPU(Data)-intensive tasks.
 
 ## CPU(Data) intensive tasks
 Usually use multi-processing and multi-threading, as a normal task won't wait for some external data, it needs cpu to do computation for most of the time.
+
 But which one to choose is depend on different kinds of computing tasks.
 ### Multi-threading vs Multi-processing
 Thread is lighter than process, lighter means easy to create and destroy, occupy less resource.
+
 Threads share same address space, heap but each thread has its own stack.
+
 - Communication between threads is faster.
 - Multi-processing is more reliable, one process is crashed -> won't affect other processes. On contrast, one thread crashes, the process it belongs to, as well as other threads in the same process become dead.
 
@@ -40,8 +45,10 @@ Example: Web servers, Tornado, Gevent
 
 ### Coroutine vs Multi-threading
 Coroutine is one of the reason why Python, Go are so popular to write web servers.
-Coroutines run concurrently in a thread just like threads run concurrently in a process. 
-But:
+
+Coroutines run concurrently in a thread just like threads run concurrently in a process 
+but:
+
  - Concurrent execution needs context-switch and context-switch by coroutine is extremely light, which means much cheaper, faster than multi-threading
  - Coroutine is managed by user,  multi-threading is managed by kernel. Developers have better control of the execution flow by using coroutine, for example, a coroutine won't be forced to yield.
  - Coroutines cannot run in parallel.
@@ -50,17 +57,17 @@ But:
 In python, because of the existence of GIL(one GIL per process),  so only one thread can acquire the GIL to run at the same time even, so multi-threading isn't really multi-threading in python, as threads can only run concurrently but not in parallel. 
 So coroutine and multi-threading has no difference except multi-threading is heavier and slower in Python.
 
-In python, we use multi-processing lib for CPU-intensive tasks. Multi-processing lib allows each process have its own GIL.
+
 ###  I/O intensive in Python
 Use coroutine lib like asyncio, gevent, or framework like Tornado for I/O-intensive tasks.
 
 ###  CPU intensive in Python
-Use multi-processing
+In python, we use multi-processing lib for CPU-intensive tasks. Multi-processing lib allows each process have its own GIL.
 
 ### Need some sort of combination? 
 Use coroutine and reimplement key module using C to avoid GIL.
  
 ## Multi-core CPU vs Multi-CPU
 -  In a same CPU, there can be multiple cores. Different cores work together and share resources.
-Across different CPUs there could be also multiple cores, but usually not a good practice because some resources are not shared, getting resources owned by other CPU is expansive.
-For same amount of cores, we usually have a lot better performance gain by putting them in a same CPU. Now for commercial CPU, 16 cores is pretty common. Multi-CPU is usually good for running completely isolated programs (not sharing any data)
+-  Across different CPUs there could be also multiple cores, but usually not a good practice because some resources are not shared, getting resources owned by other CPU is expansive.
+- For same amount of cores, we usually have a lot better performance gain by putting them in a same CPU. Now for commercial CPU, 16 cores is pretty common. Multi-CPU is usually good for running completely isolated programs (not sharing any data)
