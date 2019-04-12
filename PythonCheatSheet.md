@@ -3,7 +3,7 @@ title: "Python CheatSheet"
 date: 2019-04-08
 ---
 ##### This note is used to remind me some very basic but easy to forget operations 
-##### [A good tutorial for beginner](https://gist.github.com/SEKIRO-J/217f84929b37d40b827abbb1b6796342)
+##### [A good tutorial for beginner in Chinese](https://gist.github.com/SEKIRO-J/217f84929b37d40b827abbb1b6796342)
 ---------------------
 
 #### 1. Open file, read, write
@@ -43,7 +43,7 @@ def load_obj(name ):
         return pickle.load(f)
 ```
 
-#### 4.  
+#### 4.   xrange and range
 ```Python
 difference between list[0,1,2,3,4] and range(0,5) in python 3.0+
 difference between range(0,5) and xrange(0,5) in python before 3.0)
@@ -53,6 +53,6 @@ The later ones returns a range object( a iterable object similar to iteratorbut 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNTU4NDM4NywxMDY1OTgwNDU0LDE2Mj
-U1NDAyMDIsMTE5MzUxOTM4MF19
+eyJoaXN0b3J5IjpbNjU4ODUxOCwxMDY1OTgwNDU0LDE2MjU1ND
+AyMDIsMTE5MzUxOTM4MF19
 -->
