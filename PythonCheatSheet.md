@@ -2,7 +2,8 @@
 title: "Python CheatSheet"
 date: 2019-04-08
 ---
-### Some ve
+##### This note is used to remind me some very basic but easy to forget operations 
+##### [A good tutorial for beginner](https://gist.github.com/SEKIRO-J/217f84929b37d40b827abbb1b6796342)
 ---------------------
 
 #### 1. Open file, read, write
@@ -52,6 +53,6 @@ The later ones returns a range object( a iterable object similar to iteratorbut 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQyNTIxOTAzLDEwNjU5ODA0NTQsMTYyNT
-U0MDIwMiwxMTkzNTE5MzgwXX0=
+eyJoaXN0b3J5IjpbMTUxNTU4NDM4NywxMDY1OTgwNDU0LDE2Mj
+U1NDAyMDIsMTE5MzUxOTM4MF19
 -->
