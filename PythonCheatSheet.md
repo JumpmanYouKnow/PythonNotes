@@ -5,7 +5,7 @@ date: 2019-04-08
 ##### This cheatsheet includes some very basic but easy to forget operations and some random notes.
 ##### [A good tutorial for beginner in Chinese](https://gist.github.com/SEKIRO-J/217f84929b37d40b827abbb1b6796342)
 ---------------------
-#### 1. Decorator Syntax
+### 1. Decorator Syntax
 ```Python
 def decorator(func):  
 	def new_func(*args, **argkw):  
@@ -24,7 +24,7 @@ f()
 #Hello World
 ```
 
-#### 2. Open file, read, write
+### 2. Open file, read, write
 ```Python
 Open: f = open(“hello.text”, flag), flag: 'r' = read, 'b' = binary, 'w' = write
 read sing line:
@@ -34,14 +34,14 @@ f.readlines()
 read whole file as string:
 f.read()
 ```
-#### 3.  Read from stdin
+### 3.  Read from stdin
 ```Python
 import sys
 for line in sys.stdin.readlines():
 	#convert each line from a string to a list of integer
 	line_list = (map(int, line.split()))
 ```
-#### 4.  look up table of element, origin index -> the sorted index
+### 4.  look up table of element, origin index -> the sorted index
 ```Python
 idx = np.argsort()
 lut = np.zeros_like(idx)  
@@ -50,7 +50,7 @@ lut[idx] = np.arange(len(origin_list))
 lut[origin_index] = sorted_index
 ```
 
-#### 5. load object and save object
+### 5. load object and save object
 ```Python
 def save_obj(obj, name ):
     with open('obj/'+ name + '.pkl', 'wb') as f:
@@ -61,7 +61,7 @@ def load_obj(name ):
         return pickle.load(f)
 ```
 
-#### 6.   xrange and range
+### 6.   xrange and range
 ```Python
 difference between list[0,1,2,3,4] and range(0,5) in python 3.0+
 difference between range(0,5) and xrange(0,5) in python before 3.0)
@@ -71,6 +71,6 @@ The later ones returns a range object( a iterable object similar to iteratorbut 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNzYyNDc5NywxMDY1OTgwNDU0LDE2Mj
-U1NDAyMDIsMTE5MzUxOTM4MF19
+eyJoaXN0b3J5IjpbLTY3NTYxODM5NSwtOTM3NjI0Nzk3LDEwNj
+U5ODA0NTQsMTYyNTU0MDIwMiwxMTkzNTE5MzgwXX0=
 -->
