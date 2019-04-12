@@ -4,7 +4,8 @@ date: 2019-04-08
 ---
 
 ## What is a process
-A process is 
+How is a computer program executed? A program needs at least one thread, one process, one core, one cpu to run on.
+
 ### For distributing
 ## What is a thread
 ### Advantage
@@ -12,6 +13,6 @@ A process is
 ### Why we prefer coroutine in Python
 ### Tornado, Greenlet, Gevent
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMTEzNTI5MCwxOTc4MTg4MzE0LDU4ND
-E2MDYwXX0=
+eyJoaXN0b3J5IjpbLTE1NjYwNDgzMzksLTYwMTEzNTI5MCwxOT
+c4MTg4MzE0LDU4NDE2MDYwXX0=
 -->
