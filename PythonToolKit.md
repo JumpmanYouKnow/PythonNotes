@@ -16,10 +16,12 @@ https://docs.python.org/3/library/re.html
 GoogleNews-vectors-negative300.bin
 https://code.google.com/archive/p/word2vec/
 
-#### 4. trace function call stack 
-GoogleNews-vectors-negative300.bin
-https://code.google.com/archive/p/word2vec/
+#### 4. trace execution for each line/function
+```python
+python -m trace --count -C . somefile.py ...
+```
+[https://docs.python.org/3.7/library/trace.html](https://docs.python.org/3.7/library/trace.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NzIzNzA3NF19
+eyJoaXN0b3J5IjpbLTIwNTcwNTQ1MzRdfQ==
 -->
