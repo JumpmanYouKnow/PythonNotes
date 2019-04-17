@@ -10,12 +10,12 @@ steps to install:
 4 type `"package_name" `, find the package and hit enter
 
 1.gitgutter
-
+very useful tool if you are working with a git repo
 
 2.SumlineLinter-flake8
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTExMzE1NTAsMTcxODUyNTc5LDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbMjA1ODIwNjcyMiwxNzE4NTI1NzksNzMwOT
+k4MTE2XX0=
 -->
