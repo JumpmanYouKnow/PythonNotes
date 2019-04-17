@@ -70,6 +70,15 @@ the former one needs to allocate the actuall space on memory, the later one does
 The later ones returns a range object( a iterable object similar to iteratorbut allows random access), so allocate memory on demand.
 ```
 
+### 7. install different python version packages using pip
+```
+python 2.x:
+pip2 install -r requirements.txt
+python 3.x:
+pip3 install -r requirements.txt
+```
+
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTY3NTYxODM5NSwtOTM3NjI0Nzk3LDEwNj
 U5ODA0NTQsMTYyNTU0MDIwMiwxMTkzNTE5MzgwXX0=
