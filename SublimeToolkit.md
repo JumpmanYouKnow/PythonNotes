@@ -12,10 +12,12 @@ steps to install:
 1.gitgutter
 very useful tool if you are working with a git repo
 
-2.SumlineLinter-flake8
-
+2.SumlineLinter & SumlineLinter-flake8
+linter 
+3. KiteSublime
+to search documentations
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1ODIwNjcyMiwxNzE4NTI1NzksNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE3NzEyOTkzMiwyMDU4MjA2NzIyLDE3MT
+g1MjU3OSw3MzA5OTgxMTZdfQ==
 -->
