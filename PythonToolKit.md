@@ -25,10 +25,15 @@ python -m trace --count -C . somefile.py ...
 
 #### 6. get time analysis for a statement execution
 ```
+usage:
 python -m timeit 'stmt' # number = 10000
+or:
 timeit.timeit('stmt', number=10000)
+In Ipython:
+%timeit 'stmt'
 ```
+[https://docs.python.org/2/library/timeit.html](https://docs.python.org/2/library/timeit.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIwMTg4MTY5LDEyNDQ1NjA5NjldfQ==
+eyJoaXN0b3J5IjpbLTE5NzA4MDQyNjEsMTI0NDU2MDk2OV19
 -->
