@@ -23,6 +23,12 @@ python -m trace --count -C . somefile.py ...
 ```
 [https://docs.python.org/3.7/library/trace.html](https://docs.python.org/3.7/library/trace.html)
 
+#### 6. get time analysis for a statement execution
+```
+python -m timeit 'stmt' # number = 10000
+timeit.timeit('stmt', number=10000)
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NDU2MDk2OV19
+eyJoaXN0b3J5IjpbOTIwMTg4MTY5LDEyNDQ1NjA5NjldfQ==
 -->
