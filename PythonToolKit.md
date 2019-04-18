@@ -17,7 +17,7 @@ https://docs.python.org/3/library/re.html
 GoogleNews-vectors-negative300.bin
 https://code.google.com/archive/p/word2vec/
 
-#### 5. trace execution for each line/function
+#### 5. trace execution for each line/function flow
 ```python
 python -m trace --count -C . somefile.py ...
 ```
@@ -35,5 +35,5 @@ In Ipython:
 [https://docs.python.org/2/library/timeit.html](https://docs.python.org/2/library/timeit.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzA4MDQyNjEsMTI0NDU2MDk2OV19
+eyJoaXN0b3J5IjpbLTE0NTc4Nzg1MTMsMTI0NDU2MDk2OV19
 -->
