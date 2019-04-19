@@ -11,8 +11,11 @@ date: 2019-04-19
 4. **node**: virtual machine
 5. **pod**: container
 
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MDU3Mjc2MCwxNjY1MTU0NzgyLC0yMj
-ExMjkyNTQsLTIyNTA0NjQzOSw4Mjc4NTM4NTZdfQ==
+eyJoaXN0b3J5IjpbMTQ5MzIzNTI1MiwxMzYwNTcyNzYwLDE2Nj
+UxNTQ3ODIsLTIyMTEyOTI1NCwtMjI1MDQ2NDM5LDgyNzg1Mzg1
+Nl19
 -->
