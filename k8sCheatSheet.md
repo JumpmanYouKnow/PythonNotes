@@ -12,12 +12,12 @@ date: 2019-04-19
 5. **pod**: a set of containers to orchestrate
 
 ### manifests/objects
-	depolyment, replicas, 
+	depolyment, replicas, Persistent Volumes,
 	ususally defined by .yaml or .json file
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NzcyNjgwNywtMTA1NjQ0MjcyLDc4OT
-E3MzQ5MywxMzYwNTcyNzYwLDE2NjUxNTQ3ODIsLTIyMTEyOTI1
-NCwtMjI1MDQ2NDM5LDgyNzg1Mzg1Nl19
+eyJoaXN0b3J5IjpbMjc3NDc5MzU3LC0xMDU2NDQyNzIsNzg5MT
+czNDkzLDEzNjA1NzI3NjAsMTY2NTE1NDc4MiwtMjIxMTI5MjU0
+LC0yMjUwNDY0MzksODI3ODUzODU2XX0=
 -->
