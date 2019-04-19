@@ -11,12 +11,13 @@ date: 2019-04-19
 4. **node**: virtual machine
 5. **pod**: container
 
-### manifests/o
+### manifests/objects
 	depolyment, replicas, 
+	ususally defined by .yaml or .json file
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg0ODIxLDc4OTE3MzQ5MywxMzYwNTcyNz
-YwLDE2NjUxNTQ3ODIsLTIyMTEyOTI1NCwtMjI1MDQ2NDM5LDgy
-Nzg1Mzg1Nl19
+eyJoaXN0b3J5IjpbLTEwNTY0NDI3Miw3ODkxNzM0OTMsMTM2MD
+U3Mjc2MCwxNjY1MTU0NzgyLC0yMjExMjkyNTQsLTIyNTA0NjQz
+OSw4Mjc4NTM4NTZdfQ==
 -->
