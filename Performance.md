@@ -4,15 +4,16 @@ date: 2018-09-08
 ---
 
 Table of Contents:
-* Front End
-  *  
+* Edge Computing
+* Content Delivery 
 * Server Side
-* nginx 
+  * nginx 
   * long alive connection
     * optimized, cheap, fast 
   * reverse proxy
     * load balancer 
-* [High concurrent]()
+* Application Side()
+*  
     * [Disk I/O](#config-schema)
       * Async
       * Disk Performance  
@@ -26,6 +27,6 @@ Table of Contents:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMDIwNDMzOCw3MjQ2NTEzNzMsLTE5Nz
-A3NDIyODBdfQ==
+eyJoaXN0b3J5IjpbMTU1ODA3MjgxMCwyMTMwMjA0MzM4LDcyND
+Y1MTM3MywtMTk3MDc0MjI4MF19
 -->
