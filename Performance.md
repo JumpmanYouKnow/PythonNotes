@@ -20,14 +20,13 @@ Table of Contents:
         * RAID 0, 1, 5, 10    
     * [Network I/O](#loading-configuration)
       * zip message
-      * ch 
+      * use a better network card & adaptor 
    
 * [Database Side]()
 
 
 
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NTc5NjEzMSwyMTMwMjA0MzM4LDcyND
-Y1MTM3MywtMTk3MDc0MjI4MF19
+eyJoaXN0b3J5IjpbLTEzMTcwNzEyOTksMjEzMDIwNDMzOCw3Mj
+Q2NTEzNzMsLTE5NzA3NDIyODBdfQ==
 -->
