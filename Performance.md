@@ -24,12 +24,14 @@ Table of Contents:
       * use a better network card & adaptor 
    
 * [Database Side]()
-  * In memory cache
-  *  
+  * In memory cache -Redis/memcached
+  *  high availability
+  *  fast complexy query: relational db
+  * fast simple query: no-relational db
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE4NTY5MTY2LC04MjQzMDcxODgsMjEzMD
-IwNDMzOCw3MjQ2NTEzNzMsLTE5NzA3NDIyODBdfQ==
+eyJoaXN0b3J5IjpbLTcwMjYzNTI2OCwtODI0MzA3MTg4LDIxMz
+AyMDQzMzgsNzI0NjUxMzczLC0xOTcwNzQyMjgwXX0=
 -->
