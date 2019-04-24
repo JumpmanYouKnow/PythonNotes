@@ -12,21 +12,22 @@ Table of Contents:
     * optimized, cheap, fast 
   * reverse proxy
     * load balancer 
-* Application Side()
-*  
+* [Application Side]()  
     * [Disk I/O](#config-schema)
       * Async
       * Disk Performance  
         * SSD
         * RAID 0, 1, 5, 10    
     * [Network I/O](#loading-configuration)
-     * 
-* [High throughput]()
+      * zip message
+      * ch 
+   
+* [Database Side]()
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1ODA3MjgxMCwyMTMwMjA0MzM4LDcyND
+eyJoaXN0b3J5IjpbMTg1NTc5NjEzMSwyMTMwMjA0MzM4LDcyND
 Y1MTM3MywtMTk3MDc0MjI4MF19
 -->
