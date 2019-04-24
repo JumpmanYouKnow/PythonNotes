@@ -4,8 +4,9 @@ date: 2018-09-08
 ---
 
 Table of Contents:
-
-Server 
+* Front End
+  *  
+* Server Side
 * nginx 
   * long alive connection
     * optimized, cheap, fast 
@@ -25,6 +26,6 @@ Server
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3ODcxNjEyMyw3MjQ2NTEzNzMsLTE5Nz
+eyJoaXN0b3J5IjpbMjEzMDIwNDMzOCw3MjQ2NTEzNzMsLTE5Nz
 A3NDIyODBdfQ==
 -->
