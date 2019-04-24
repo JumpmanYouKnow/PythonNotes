@@ -26,12 +26,16 @@ Table of Contents:
 * [Database Side]()
   * In memory cache -Redis/memcached
   *  high availability
-  *  fast complexy query: relational db
-  * fast simple query: no-relational db
+  * relational db
+    *  fast complexy query
+  * no-relational db
+    * fast simple query
+    * flexible
+    * support many data types
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMjYzNTI2OCwtODI0MzA3MTg4LDIxMz
-AyMDQzMzgsNzI0NjUxMzczLC0xOTcwNzQyMjgwXX0=
+eyJoaXN0b3J5IjpbLTIwNzk4NDM3ODQsLTgyNDMwNzE4OCwyMT
+MwMjA0MzM4LDcyNDY1MTM3MywtMTk3MDc0MjI4MF19
 -->
