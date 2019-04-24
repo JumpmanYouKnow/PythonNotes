@@ -1,5 +1,5 @@
 ---
-title: "Performance improvement by nginx"
+title: "Performance"
 date: 2018-09-08
 ---
 
@@ -24,10 +24,12 @@ Table of Contents:
       * use a better network card & adaptor 
    
 * [Database Side]()
+  * In memory cache
+  *  
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU2OTQzODMsLTgyNDMwNzE4OCwyMTMwMj
-A0MzM4LDcyNDY1MTM3MywtMTk3MDc0MjI4MF19
+eyJoaXN0b3J5IjpbNDE4NTY5MTY2LC04MjQzMDcxODgsMjEzMD
+IwNDMzOCw3MjQ2NTEzNzMsLTE5NzA3NDIyODBdfQ==
 -->
