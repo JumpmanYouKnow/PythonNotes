@@ -1,11 +1,16 @@
+---
+title: "Performance Bottleneck and Solution"
+date: 2018-09-08
+---
+
 Table of Contents:
 
-* [I/O](#configuration-files)
-    * [](#config-schema)
-    * [(#loading-configuration)
+* [I/O](#I/O)
+    * [Disk I/O](#config-schema)
+    * [Network I/O](#loading-configuration)
 
 # I/O
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5ODY2NDE2NF19
+eyJoaXN0b3J5IjpbLTE5NzA3NDIyODBdfQ==
 -->
