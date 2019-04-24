@@ -4,8 +4,8 @@ date: 2018-09-08
 ---
 
 Table of Contents:
-* Edge Computing
-* Content Delivery 
+* [Edge Computing]()
+* [Content Delivery]() 
 * Server Side
   * Gateway: nginx 
   * long alive connection
@@ -27,6 +27,6 @@ Table of Contents:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNzUzOTg1OSwyMTMwMjA0MzM4LDcyND
-Y1MTM3MywtMTk3MDc0MjI4MF19
+eyJoaXN0b3J5IjpbMjMzODg5MzgxLDIxMzAyMDQzMzgsNzI0Nj
+UxMzczLC0xOTcwNzQyMjgwXX0=
 -->
