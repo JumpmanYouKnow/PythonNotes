@@ -7,7 +7,7 @@ Table of Contents:
 * Edge Computing
 * Content Delivery 
 * Server Side
-  * nginx 
+  * Gateway: nginx 
   * long alive connection
     * optimized, cheap, fast 
   * reverse proxy
@@ -27,6 +27,6 @@ Table of Contents:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTcwNzEyOTksMjEzMDIwNDMzOCw3Mj
-Q2NTEzNzMsLTE5NzA3NDIyODBdfQ==
+eyJoaXN0b3J5IjpbMTYzNzUzOTg1OSwyMTMwMjA0MzM4LDcyND
+Y1MTM3MywtMTk3MDc0MjI4MF19
 -->
