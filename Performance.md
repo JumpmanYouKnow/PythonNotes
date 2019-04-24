@@ -12,7 +12,8 @@ Table of Contents:
     * optimized, cheap, fast 
   * reverse proxy
     * load balancer 
-* [Application Side]()  
+* [Application Side]()
+  * [Algorithms]()   
     * [Disk I/O](#config-schema)
       * Async
       * Disk Performance  
@@ -27,6 +28,6 @@ Table of Contents:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNDMwNzE4OCwyMTMwMjA0MzM4LDcyND
-Y1MTM3MywtMTk3MDc0MjI4MF19
+eyJoaXN0b3J5IjpbNDU2OTQzODMsLTgyNDMwNzE4OCwyMTMwMj
+A0MzM4LDcyNDY1MTM3MywtMTk3MDc0MjI4MF19
 -->
