@@ -6,8 +6,9 @@ date: 2018-09-08
 Table of Contents:
 * nginx 
   * long alive connection
-  * 
-  *  
+    * optimized, small, fast
+  * reverse proxy
+    * load balancer 
 * [High concurrent]()
     * [Disk I/O](#config-schema)
       * Async
@@ -20,6 +21,6 @@ Table of Contents:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDI0MTQ0MzMsNzI0NjUxMzczLC0xOT
-cwNzQyMjgwXX0=
+eyJoaXN0b3J5IjpbMTU4NzU2MzMxLDcyNDY1MTM3MywtMTk3MD
+c0MjI4MF19
 -->
