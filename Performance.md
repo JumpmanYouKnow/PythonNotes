@@ -7,7 +7,7 @@ Table of Contents:
 * [Edge Computing]()
 * [Content Delivery]() 
 * Server Side
-  * Gateway: nginx 
+  * Gateway: nginx, openResty
   * long alive connection
     * optimized, cheap, fast 
   * reverse proxy
@@ -27,6 +27,6 @@ Table of Contents:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMzODg5MzgxLDIxMzAyMDQzMzgsNzI0Nj
-UxMzczLC0xOTcwNzQyMjgwXX0=
+eyJoaXN0b3J5IjpbLTgyNDMwNzE4OCwyMTMwMjA0MzM4LDcyND
+Y1MTM3MywtMTk3MDc0MjI4MF19
 -->
