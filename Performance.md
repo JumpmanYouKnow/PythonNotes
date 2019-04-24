@@ -27,7 +27,8 @@ Table of Contents:
   * In memory cache -Redis/memcached
   *  high availability
   * relational db
-    *  fast complexy query
+    *  fast complex query
+    * support tabular data
   * no-relational db
     * fast simple query
     * flexible
@@ -36,6 +37,7 @@ Table of Contents:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzk4NDM3ODQsLTgyNDMwNzE4OCwyMT
-MwMjA0MzM4LDcyNDY1MTM3MywtMTk3MDc0MjI4MF19
+eyJoaXN0b3J5IjpbMjA0NDg3OTgzMSwtMjA3OTg0Mzc4NCwtOD
+I0MzA3MTg4LDIxMzAyMDQzMzgsNzI0NjUxMzczLC0xOTcwNzQy
+MjgwXX0=
 -->
