@@ -9,15 +9,19 @@ date: 2019-04-19
 2. **context**: a group of access parameters,  a cluster, a namespace, a user.
 3. **namespace**: virtual cluster, use to separate resources across different environments like prod, dev, test.
 4. **node**: a virtual/physical machine
-5. **pod**: a set of containers to orchestrate
+5. **pod**: a set of containers to orchestrate, minimal object to scale
+6. **container**: docker container runs in pod
 
 ### manifests/objects
 	depolyment, replicas, Persistent Volumes,
 	ususally defined by .yaml or .json file
 
+### Expose a servcie
+1. **LoadBl**
+1. **NodePort**
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc3NDc5MzU3LC0xMDU2NDQyNzIsNzg5MT
-czNDkzLDEzNjA1NzI3NjAsMTY2NTE1NDc4MiwtMjIxMTI5MjU0
-LC0yMjUwNDY0MzksODI3ODUzODU2XX0=
+eyJoaXN0b3J5IjpbLTg4NTAyMDkxOCwyNzc0NzkzNTcsLTEwNT
+Y0NDI3Miw3ODkxNzM0OTMsMTM2MDU3Mjc2MCwxNjY1MTU0Nzgy
+LC0yMjExMjkyNTQsLTIyNTA0NjQzOSw4Mjc4NTM4NTZdfQ==
 -->
