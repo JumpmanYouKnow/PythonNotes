@@ -17,11 +17,13 @@ date: 2019-04-19
 	ususally defined by .yaml or .json file
 
 ### Expose a servcie
-1. **LoadBl**
-1. **NodePort**
+3 type of manifests to expose a service
+1. **NodePort**:  Access service by a port number,
+2. **LoadBalancer**
+3. **Ingress**
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NTAyMDkxOCwyNzc0NzkzNTcsLTEwNT
-Y0NDI3Miw3ODkxNzM0OTMsMTM2MDU3Mjc2MCwxNjY1MTU0Nzgy
-LC0yMjExMjkyNTQsLTIyNTA0NjQzOSw4Mjc4NTM4NTZdfQ==
+eyJoaXN0b3J5IjpbNDE2MDY5ODgxLDI3NzQ3OTM1NywtMTA1Nj
+Q0MjcyLDc4OTE3MzQ5MywxMzYwNTcyNzYwLDE2NjUxNTQ3ODIs
+LTIyMTEyOTI1NCwtMjI1MDQ2NDM5LDgyNzg1Mzg1Nl19
 -->
