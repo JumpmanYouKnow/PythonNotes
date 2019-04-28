@@ -18,12 +18,12 @@ date: 2019-04-19
 
 ### Expose a servcie
 3 type of manifests to expose a service
-1. **NodePort**:  Access service by a port number,
+1. **NodePort**:  Assign the service to a port, access the service by port number. Ex:```<NodeIP>:<PortNumber>```, PortNumber is fixed, NodeIP could be anynode that the servcie is running on.
 2. **LoadBalancer**
 3. **Ingress**
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE2MDY5ODgxLDI3NzQ3OTM1NywtMTA1Nj
-Q0MjcyLDc4OTE3MzQ5MywxMzYwNTcyNzYwLDE2NjUxNTQ3ODIs
-LTIyMTEyOTI1NCwtMjI1MDQ2NDM5LDgyNzg1Mzg1Nl19
+eyJoaXN0b3J5IjpbMTA5NjYzNjA1OSwyNzc0NzkzNTcsLTEwNT
+Y0NDI3Miw3ODkxNzM0OTMsMTM2MDU3Mjc2MCwxNjY1MTU0Nzgy
+LC0yMjExMjkyNTQsLTIyNTA0NjQzOSw4Mjc4NTM4NTZdfQ==
 -->
