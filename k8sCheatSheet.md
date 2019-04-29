@@ -8,6 +8,8 @@ Table of Contents:
 * [Expose a service]() 
 * [Secret, ConfigMap]() 
 * [Volume and PersistentVolume ]() 
+* [Autoscaling]()
+* [Helm]()
 
 ###  Basic Terms
 	cluster, context, namespace, node, pods.
@@ -19,10 +21,11 @@ Table of Contents:
 6. **container**: docker container runs in pod
 
 ### manifests/objects
-	pod,depolyment,daemonSet,replicas,service,volumes,Ho
+	pod,depolyment,daemonSet,replicas,service,volumes,HorizontalPodsAutoscaler(HPA)
 	ususally defined by .yaml or .json file
 
 ### Access pod(s) by service
+1. Create a ```Kind:Service ```
 
 ### Expose a service
 There are 3 types of manifests to expose a service
@@ -31,8 +34,8 @@ There are 3 types of manifests to expose a service
 4. **Ingress** Recommended way for production. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTgwODE4NjAsMTA4MDY3NDc5MiwxMD
-k2NjM2MDU5LDI3NzQ3OTM1NywtMTA1NjQ0MjcyLDc4OTE3MzQ5
-MywxMzYwNTcyNzYwLDE2NjUxNTQ3ODIsLTIyMTEyOTI1NCwtMj
-I1MDQ2NDM5LDgyNzg1Mzg1Nl19
+eyJoaXN0b3J5IjpbMTAyNDgxMjM5NSwxMDgwNjc0NzkyLDEwOT
+Y2MzYwNTksMjc3NDc5MzU3LC0xMDU2NDQyNzIsNzg5MTczNDkz
+LDEzNjA1NzI3NjAsMTY2NTE1NDc4MiwtMjIxMTI5MjU0LC0yMj
+UwNDY0MzksODI3ODUzODU2XX0=
 -->
