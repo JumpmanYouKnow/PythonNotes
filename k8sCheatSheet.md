@@ -19,7 +19,7 @@ Table of Contents:
 6. **container**: docker container runs in pod
 
 ### manifests/objects
-	depolyment, replicas, Persistent Volumes,
+	pod, depolyment,daemonSet,replicas, service, 
 	ususally defined by .yaml or .json file
 
 ### Expose a servcie
@@ -29,7 +29,7 @@ There are 3 types of manifests to expose a service
 4. **Ingress** Recommended way for production. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NTM2NzIxMCwxMDgwNjc0NzkyLDEwOT
+eyJoaXN0b3J5IjpbMTExMzMyMjg4MCwxMDgwNjc0NzkyLDEwOT
 Y2MzYwNTksMjc3NDc5MzU3LC0xMDU2NDQyNzIsNzg5MTczNDkz
 LDEzNjA1NzI3NjAsMTY2NTE1NDc4MiwtMjIxMTI5MjU0LC0yMj
 UwNDY0MzksODI3ODUzODU2XX0=
