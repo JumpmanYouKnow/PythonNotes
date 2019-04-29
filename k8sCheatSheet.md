@@ -25,7 +25,7 @@ Table of Contents:
 	ususally defined by .yaml or .json file
 
 ### Access pod(s) by service
-1. Create a ```Kind:Service ``` yaml, and define which pods your service is using.
+1. Create a ```Kind:Service ``` yaml, and define which pods your service is using (by using label)
 
 ### Expose a service
 There are 3 types of manifests to expose a service
@@ -34,8 +34,8 @@ There are 3 types of manifests to expose a service
 4. **Ingress** Recommended way for production. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MzA5ODE3LDEwODA2NzQ3OTIsMTA5Nj
-YzNjA1OSwyNzc0NzkzNTcsLTEwNTY0NDI3Miw3ODkxNzM0OTMs
-MTM2MDU3Mjc2MCwxNjY1MTU0NzgyLC0yMjExMjkyNTQsLTIyNT
-A0NjQzOSw4Mjc4NTM4NTZdfQ==
+eyJoaXN0b3J5IjpbLTEyOTg2OTEwODMsMTA4MDY3NDc5MiwxMD
+k2NjM2MDU5LDI3NzQ3OTM1NywtMTA1NjQ0MjcyLDc4OTE3MzQ5
+MywxMzYwNTcyNzYwLDE2NjUxNTQ3ODIsLTIyMTEyOTI1NCwtMj
+I1MDQ2NDM5LDgyNzg1Mzg1Nl19
 -->
