@@ -5,7 +5,7 @@ date: 2018-09-08
 
 Table of Contents:
 * [Edge Computing]()
-* [Content Delivery]() 
+* [Content Delivery Network]() 
 * Server Side
   * Gateway: nginx, openResty
   * long alive connection
@@ -37,7 +37,7 @@ Table of Contents:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NDg3OTgzMSwtMjA3OTg0Mzc4NCwtOD
-I0MzA3MTg4LDIxMzAyMDQzMzgsNzI0NjUxMzczLC0xOTcwNzQy
-MjgwXX0=
+eyJoaXN0b3J5IjpbMTkyMDQ1MDA4OSwyMDQ0ODc5ODMxLC0yMD
+c5ODQzNzg0LC04MjQzMDcxODgsMjEzMDIwNDMzOCw3MjQ2NTEz
+NzMsLTE5NzA3NDIyODBdfQ==
 -->
