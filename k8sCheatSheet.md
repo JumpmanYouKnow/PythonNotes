@@ -3,12 +3,13 @@ title: "Kubernetes CheatSheet"
 date: 2019-04-19
 ---
 Table of Contents:
-* []()
+* [Basic Terms]()
+* [Run a service]()
 * [Expose a service]() 
 * [Secret, ConfigMap]() 
-* [Volume and Persisent ]() 
+* [Volume and PersistentVolume ]() 
 
-###  list of terms
+###  Basic Terms
 	cluster, context, namespace, node, pods.
 1. **cluster**: physical cluster of physical machine.
 2. **context**: a group of access parameters,  a cluster, a namespace, a user.
@@ -28,8 +29,8 @@ There are 3 types of manifests to expose a service
 4. **Ingress** Recommended way for production. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjU4ODk5MDIsMTA4MDY3NDc5MiwxMD
-k2NjM2MDU5LDI3NzQ3OTM1NywtMTA1NjQ0MjcyLDc4OTE3MzQ5
-MywxMzYwNTcyNzYwLDE2NjUxNTQ3ODIsLTIyMTEyOTI1NCwtMj
-I1MDQ2NDM5LDgyNzg1Mzg1Nl19
+eyJoaXN0b3J5IjpbMTk5NTM2NzIxMCwxMDgwNjc0NzkyLDEwOT
+Y2MzYwNTksMjc3NDc5MzU3LC0xMDU2NDQyNzIsNzg5MTczNDkz
+LDEzNjA1NzI3NjAsMTY2NTE1NDc4MiwtMjIxMTI5MjU0LC0yMj
+UwNDY0MzksODI3ODUzODU2XX0=
 -->
