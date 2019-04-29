@@ -19,18 +19,20 @@ Table of Contents:
 6. **container**: docker container runs in pod
 
 ### manifests/objects
-	pod, depolyment,daemonSet,replicas, service, 
+	pod,depolyment,daemonSet,replicas,service,volumes,Ho
 	ususally defined by .yaml or .json file
 
-### Expose a servcie
+### Access pod(s) by service
+
+### Expose a service
 There are 3 types of manifests to expose a service
 1. **NodePort**:  Assign the service to a port, access the service by port number. Ex:```<NodeIP>:<PortNumber>```, PortNumber is fixed, NodeIP could be any node that the service is running on. pods traffic is balanced in the same node, but not balanced in the different nodes . This is not good for production, but good for local testing by using kube-proxy.
 3. **LoadBalancer** Similar to NodePort, but expose the all ```<NodeIP>:<PortNumber>```to a external load balancer. Node traffic is balanced.
 4. **Ingress** Recommended way for production. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMzMyMjg4MCwxMDgwNjc0NzkyLDEwOT
-Y2MzYwNTksMjc3NDc5MzU3LC0xMDU2NDQyNzIsNzg5MTczNDkz
-LDEzNjA1NzI3NjAsMTY2NTE1NDc4MiwtMjIxMTI5MjU0LC0yMj
-UwNDY0MzksODI3ODUzODU2XX0=
+eyJoaXN0b3J5IjpbLTE4OTgwODE4NjAsMTA4MDY3NDc5MiwxMD
+k2NjM2MDU5LDI3NzQ3OTM1NywtMTA1NjQ0MjcyLDc4OTE3MzQ5
+MywxMzYwNTcyNzYwLDE2NjUxNTQ3ODIsLTIyMTEyOTI1NCwtMj
+I1MDQ2NDM5LDgyNzg1Mzg1Nl19
 -->
