@@ -4,7 +4,9 @@ date: 2019-04-19
 ---
 Table of Contents:
 * []()
-* []() 
+* [Expose a service]() 
+* [Secret, ConfigMap]() 
+* [Volume and Persisent ]() 
 
 ###  list of terms
 	cluster, context, namespace, node, pods.
@@ -26,8 +28,8 @@ There are 3 types of manifests to expose a service
 4. **Ingress** Recommended way for production. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MjQ0MzI0LDEwODA2NzQ3OTIsMTA5Nj
-YzNjA1OSwyNzc0NzkzNTcsLTEwNTY0NDI3Miw3ODkxNzM0OTMs
-MTM2MDU3Mjc2MCwxNjY1MTU0NzgyLC0yMjExMjkyNTQsLTIyNT
-A0NjQzOSw4Mjc4NTM4NTZdfQ==
+eyJoaXN0b3J5IjpbLTE0NjU4ODk5MDIsMTA4MDY3NDc5MiwxMD
+k2NjM2MDU5LDI3NzQ3OTM1NywtMTA1NjQ0MjcyLDc4OTE3MzQ5
+MywxMzYwNTcyNzYwLDE2NjUxNTQ3ODIsLTIyMTEyOTI1NCwtMj
+I1MDQ2NDM5LDgyNzg1Mzg1Nl19
 -->
