@@ -27,12 +27,13 @@ It also a good model to use,  it is able to handle all kinds of data type flexib
 It's a good replacement for OLS when amount of variables is large. 
 
 ### 4.  LASSO
-
+When the amount of variables is large, Lasso is able to extract the significant variables to simply to model.
+In our model,  
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMzM5NzM0NywtNDM1NTM3MTUxLDE4OT
+eyJoaXN0b3J5IjpbMTUxOTk2MDYwNSwtNDM1NTM3MTUxLDE4OT
 c1OTQ2ODYsLTI5MTM0NjQzOCw4NDE5MzI3OTBdfQ==
 -->
