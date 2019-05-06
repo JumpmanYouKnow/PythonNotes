@@ -2,11 +2,8 @@
 title: "Java Notes"
 date: 2018-02-08
 ---
-# JavaNotes
 Java NOtes and cheat sheet I wrote during work and academia
 
-Generic Java
----------------------
 
 ### 1. ArrayList
 ArrayList is implemented based on primitive array 
@@ -62,5 +59,5 @@ a + b, if either is not constant, consider as variable, use new String()
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNjQzMTUwN119
+eyJoaXN0b3J5IjpbLTEzNzUzNDU5MjddfQ==
 -->
