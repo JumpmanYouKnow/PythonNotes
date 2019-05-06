@@ -3,11 +3,11 @@ title: "Scala Notes"
 date: 2018-02-08
 ---
 
-I wrote more than 5000 lines of scala code about 1 year ago, but later on I don't have any chance to write it. (Univeristy doesn't teach it, previous internships don't use it)
+I wrote more than 5000 lines of Scala code about 1 year ago, but later on I don't have any chance to write it. (University doesn't teach it, previous internships don't use it)
 
-Now I'm picking it up as the university teaches spark by scala, but I feel that I forgot lots of not only syntax but also some key knowledge about scala.
+Now I'm picking it up as the university teaches spark by Scala, but I feel that I forgot lots of not only syntax but also some key knowledge about Scala.
 
-Therefore I want to open this repo as my scala notes.
+Therefore I want to write some Scala notes.
 
 
 
@@ -151,5 +151,5 @@ Questions
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NTE2OTM3OV19
+eyJoaXN0b3J5IjpbLTEzNTA5MTI0NF19
 -->
