@@ -23,7 +23,8 @@ And it's efficiency regards computation.
 
 
 ### 3. GradientBoostingRegressor
-It's a 
+It also a good model to use,  it is able to handle all kinds of data type flexibly.
+ 
 ### 4.  LASSO
 
 
@@ -31,6 +32,6 @@ It's a
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNTUzNzE1MSwxODk3NTk0Njg2LC0yOT
-EzNDY0MzgsODQxOTMyNzkwXX0=
+eyJoaXN0b3J5IjpbLTE5MzQ4MDM4MjAsLTQzNTUzNzE1MSwxOD
+k3NTk0Njg2LC0yOTEzNDY0MzgsODQxOTMyNzkwXX0=
 -->
