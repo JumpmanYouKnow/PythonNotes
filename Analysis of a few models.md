@@ -28,12 +28,12 @@ It's a good replacement for OLS when amount of variables is large.
 
 ### 4.  LASSO
 When the amount of variables is large, Lasso is able to extract the significant variables to simply to model.
-In our model, there are lots of variables, we don't know which are important and which are not important. Lasso does a great job help us to filter out those  
+In our model, there are lots of variables, we don't know which are important and which are not important. Lasso does a great job help us to filter out those not significant variables. So I think Lasso would be a good model to use here. 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIyNTQ4NTg5LC00MzU1MzcxNTEsMTg5Nz
+eyJoaXN0b3J5IjpbOTUxNjQzMjIyLC00MzU1MzcxNTEsMTg5Nz
 U5NDY4NiwtMjkxMzQ2NDM4LDg0MTkzMjc5MF19
 -->
