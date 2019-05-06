@@ -15,7 +15,7 @@ It's good and simple, however, it has lots of assumptions.
 
 In brexit referendum data, there are 110 variables, and lots of them are depend on each other, or have influence on others. so obviously the assumptions are not satisfied here.
 
-### 2. Decision Tree
+### 2. Decision Tree and random forest
 It
 
 ### 3. GradientBoostingRegressor
@@ -26,6 +26,6 @@ It
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAzNTIzNTA1LDE4OTc1OTQ2ODYsLTI5MT
-M0NjQzOCw4NDE5MzI3OTBdfQ==
+eyJoaXN0b3J5IjpbMTk2NTU1MTEzOCwxODk3NTk0Njg2LC0yOT
+EzNDY0MzgsODQxOTMyNzkwXX0=
 -->
