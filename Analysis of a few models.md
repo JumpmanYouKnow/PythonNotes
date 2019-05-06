@@ -15,8 +15,9 @@ It's good and simple, however, it has lots of assumptions.
 
 In brexit referendum data, there are 110 variables, and lots of them are depend on each other, or have influence on others. so obviously the assumptions are not satisfied here. 
 
-### 2. Decision Tree and random forest
-Decision tree is a model simple to implement and understand,
+### 2. Decision Tree 
+Decision tree is a model simple to implement and understand.
+You can also easily optimize 
 
 ### 3. GradientBoostingRegressor
 ### 4.  LASSO
@@ -26,6 +27,6 @@ Decision tree is a model simple to implement and understand,
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NjkyOTI1NiwxODk3NTk0Njg2LC0yOT
+eyJoaXN0b3J5IjpbMTU2MzQyOTE3MSwxODk3NTk0Njg2LC0yOT
 EzNDY0MzgsODQxOTMyNzkwXX0=
 -->
