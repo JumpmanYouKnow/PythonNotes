@@ -1,4 +1,8 @@
-# DistributedComputingNotes
+---
+title: "DistributedComputing Notes"
+date: 2018-02-08
+---
+
 Mostly Hadoop, Spark
 As well as concepts, ------------- think at scale!
 
@@ -73,5 +77,5 @@ https://homes.cs.washington.edu/~billhowe/mapreduce_a_major_step_backwards.html
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2ODcwNjQxNF19
+eyJoaXN0b3J5IjpbMTM3NjAxODIyXX0=
 -->
