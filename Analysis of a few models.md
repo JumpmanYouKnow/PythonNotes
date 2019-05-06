@@ -12,12 +12,16 @@ It's good and simple, however, it has lots of assumptions.
 3. No multi-collinearity (each variable  is independent)
 4. Error term is independent and identically distributed
 5. all independent variables are uncorrelated with the error term
-### 1.  LASSO
+
+In brexit referendum data, there are 110 variables, and lots of them are depend on each other, or have influence on others. so obviously the assumptions are not satisfied here.
+
+### 2.  LASSO
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcxOTY1NjE0LDE4OTc1OTQ2ODYsLTI5MT
+eyJoaXN0b3J5IjpbODQ4OTIyOTMwLDE4OTc1OTQ2ODYsLTI5MT
 M0NjQzOCw4NDE5MzI3OTBdfQ==
 -->
