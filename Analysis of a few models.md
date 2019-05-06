@@ -13,15 +13,17 @@ It's good and simple, however, it has lots of assumptions.
 4. Error term is independent and identically distributed
 5. all independent variables are uncorrelated with the error term
 
-In brexit referendum data, there are 110 variables, it is too much computation. and lots of them are depend on each other, or have influence on others. so obviously the assumptions are not satisfied here. 
+In brexit referendum data, there are 110 variables, there would be too much computation. and lots of variables are depend on each other, or have influence on others. so obviously the assumptions are not satisfied here. 
 
 ### 2. Decision Tree 
 Decision tree is a model simple to implement and understand.
 It can be easily optimized it using random forest.
 It suits our data very well, it requires minimal data pre-processing and is able to handle many data types.
+And it's efficiency regards computation.
 
 
 ### 3. GradientBoostingRegressor
+It's a 
 ### 4.  LASSO
 
 
@@ -29,6 +31,6 @@ It suits our data very well, it requires minimal data pre-processing and is able
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MTQ4OTc4MSwxODk3NTk0Njg2LC0yOT
+eyJoaXN0b3J5IjpbLTQzNTUzNzE1MSwxODk3NTk0Njg2LC0yOT
 EzNDY0MzgsODQxOTMyNzkwXX0=
 -->
