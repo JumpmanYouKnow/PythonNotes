@@ -22,6 +22,7 @@ Table of Contents:
 7. **Job**: a wrapper to pod, usually runs a pod that carrying tasks that run only once, like db migration.
 8. **Service**: a wrapper to pod, one or more pods to perform a service.
 9. **Volumes**: file storage system, lives with node. Can define externel volumes on cloud providers, lives with cloud providers.
+10.**Label**: To classify different kind of pods. 
  
 
 ### manifests
@@ -31,8 +32,8 @@ Table of Contents:
 	- ReplicaSet: deploy pods as replica 
 	- DaemonSet:  deploy pods based on spec, ensure each node get one replica.
 	- HorizontalPodsAutoscaler(HPA)
-	- Volume 
-	- Network Policy: Define a network policy to a pod like which pods are
+	- Volume Claim C
+	- Network Policy: Define a network policy to a set of pods(by label) like which set of pods(by label) or users(by namespace) can access.
 
 
 ### Access pod(s) by service
@@ -45,5 +46,5 @@ There are 3 types of manifests to expose a service
 4. **Ingress** Recommended way for production. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNzU3NDI5N119
+eyJoaXN0b3J5IjpbMzExODk4NTY1XX0=
 -->
