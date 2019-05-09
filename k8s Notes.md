@@ -19,12 +19,14 @@ Table of Contents:
 4. **node**: a virtual/physical machine
 5. **pod**: a set of containers to orchestrate, minimal object to scale
 6. **container**: docker container runs in pod
+### Job
+Job(Depolyment,DaemonSet,ReplicaSet)
 
 ### manifests/objects
-	Pod,Depolyment,DaemonSet,ReplicaSetService,Volumes,HorizontalPodsAutoscaler(HPA)
+	Pod,Service,Volumes,HorizontalPodsAutoscaler(HPA)
 	ususally defined by .yaml or .json file
 - ReplicasSet: Like name, replicas, 
-- DaemonSet: This will create a resource on 
+- DaemonSet: A job that runs on 
 
 ### Access pod(s) by service
 1. Create a ```Kind:Service ``` yaml, and define which pods your service is using (by using label)
@@ -36,5 +38,5 @@ There are 3 types of manifests to expose a service
 4. **Ingress** Recommended way for production. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI0NjI3NTMxXX0=
+eyJoaXN0b3J5IjpbMTgzODk1NzI2N119
 -->
