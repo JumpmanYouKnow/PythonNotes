@@ -19,8 +19,8 @@ Table of Contents:
 4. **node**: a virtual/physical machine
 5. **pod**: a set of containers to orchestrate, minimal object to scale
 6. **container**: docker container runs in pod
-
-### Job: Tasks that run only once
+7. **Job**: usualTasks that run only once
+### 
 
 - Deployment: deploy a service
 - DaemonSet: 
@@ -43,5 +43,5 @@ There are 3 types of manifests to expose a service
 4. **Ingress** Recommended way for production. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI2ODM3ODU4XX0=
+eyJoaXN0b3J5IjpbLTE4OTI4MTY3NjldfQ==
 -->
