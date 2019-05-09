@@ -21,9 +21,9 @@ Table of Contents:
 6. **container**: docker container runs in pod
 
 ### manifests/objects
-	Pod,Depolyment,DaemonSet,Replicas,Service,Volumes,HorizontalPodsAutoscaler(HPA)
+	Pod,Depolyment,DaemonSet,ReplicaSetService,Volumes,HorizontalPodsAutoscaler(HPA)
 	ususally defined by .yaml or .json file
-- Replicas 
+- ReplicasSet: Like name, replicas, 
 - DaemonSet: This will create a resource on 
 
 ### Access pod(s) by service
@@ -36,5 +36,5 @@ There are 3 types of manifests to expose a service
 4. **Ingress** Recommended way for production. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NTcyOTMwN119
+eyJoaXN0b3J5IjpbNjI0NjI3NTMxXX0=
 -->
