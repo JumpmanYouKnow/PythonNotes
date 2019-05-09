@@ -19,19 +19,19 @@ Table of Contents:
 4. **node**: a virtual/physical machine
 5. **pod**: a set of containers to orchestrate, minimal object to scale
 6. **container**: docker container runs in pod
-7. **Job**: a wrapper to pod, usually runs pod that carrying tasks that run only once, like db migration.
-8. **Service**: a wrapper to pod, usually runs a pod that carrying tasks that run only once, like db migration.
+7. **Job**: a wrapper to pod, usually runs a pod that carrying tasks that run only once, like db migration.
+8. **Service**: a wrapper to pod, one or more pods to perform a service.
 ### 
 
-- Deployment: deploy a service
-- DaemonSet: 
+### manifests/objects
+	Pod,Service,Volumes,HorizontalPodsAutoscaler(HPA)
+	ususally defined by .yaml or .json file
+	- Deployment: deploy a service
+	- DaemonSet:  deploy a 
 - ReplicaSet
 
 - ReplicasSet: Like name, replicas, 
 - DaemonSet: A job that runs on 
-### manifests/objects
-	Pod,Service,Volumes,HorizontalPodsAutoscaler(HPA)
-	ususally defined by .yaml or .json file
 
 
 ### Access pod(s) by service
@@ -44,5 +44,5 @@ There are 3 types of manifests to expose a service
 4. **Ingress** Recommended way for production. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU2NTkwNzE4XX0=
+eyJoaXN0b3J5IjpbLTk1MDU1NDM1Nl19
 -->
