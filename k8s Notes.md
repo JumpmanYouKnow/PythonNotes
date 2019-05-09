@@ -11,7 +11,7 @@ Table of Contents:
 * [Autoscaling]()
 * [Helm]()
 
-###  Basic Terms
+###  Basic Terms/objects
 	cluster, context, namespace, node, pods.
 1. **cluster**: physical cluster of physical machine.
 2. **context**: a group of access parameters,  a cluster, a namespace, a user.
@@ -23,15 +23,12 @@ Table of Contents:
 8. **Service**: a wrapper to pod, one or more pods to perform a service.
 ### 
 
-### manifests/objects
+### manifests
 	Pod,Service,Volumes,HorizontalPodsAutoscaler(HPA)
 	ususally defined by .yaml or .json file
-	- Deployment: deploy a service
-	- DaemonSet:  deploy a 
-- ReplicaSet
-
-- ReplicasSet: Like name, replicas, 
-- DaemonSet: A job that runs on 
+	- Deployment: deploy pods based on spec
+	- ReplicaSet: deploy pods as replica 
+	- DaemonSet:  deploy pods based on spec, ensure each node get one replica.
 
 
 ### Access pod(s) by service
@@ -44,5 +41,5 @@ There are 3 types of manifests to expose a service
 4. **Ingress** Recommended way for production. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MDU1NDM1Nl19
+eyJoaXN0b3J5IjpbODc1NzY4MTc5XX0=
 -->
