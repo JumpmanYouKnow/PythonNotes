@@ -3,7 +3,7 @@ title: "Kubernetes Notes"
 date: 2019-04-19
 ---
 Table of Contents:
-* [Basic Terms]()
+* [Basic Terms](Basic Terms/objects)
 * [Run a service]()
 * [Expose a service]() 
 * [Secret, ConfigMap]() 
@@ -31,8 +31,8 @@ Table of Contents:
 	- Deployment: deploy pods based on spec
 	- ReplicaSet: deploy pods as replica 
 	- DaemonSet:  deploy pods based on spec, ensure each node get one replica.
-	- HorizontalPodsAutoscaler(HPA)
-	- Volume Claim C
+	- HorizontalPodsAutoscaler(HPA): Autoscaler for pods, make sure the resources usage keeps at same level.(50% CPU/Memory Usage)
+	- Volume Claim Chain: To better manage a externel volume, to use a volume, must first claim it.
 	- Network Policy: Define a network policy to a set of pods(by label) like which set of pods(by label) or users(by namespace) can access.
 
 
@@ -46,5 +46,5 @@ There are 3 types of manifests to expose a service
 4. **Ingress** Recommended way for production. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzExODk4NTY1XX0=
+eyJoaXN0b3J5IjpbLTE1NDA0NDk4ODldfQ==
 -->
