@@ -21,10 +21,10 @@ Table of Contents:
 6. **container**: docker container runs in pod
 7. **Job**: a wrapper to pod, usually runs a pod that carrying tasks that run only once, like db migration.
 8. **Service**: a wrapper to pod, one or more pods to perform a service.
-### 
+9. **Volumes**: file storage system, lives with node, not pods. Can define externel volumes on cloud providers. 
 
 ### manifests
-	Pod,Service,Volumes,HorizontalPodsAutoscaler(HPA)
+	,HorizontalPodsAutoscaler(HPA)
 	ususally defined by .yaml or .json file
 	- Deployment: deploy pods based on spec
 	- ReplicaSet: deploy pods as replica 
@@ -41,5 +41,5 @@ There are 3 types of manifests to expose a service
 4. **Ingress** Recommended way for production. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc1NzY4MTc5XX0=
+eyJoaXN0b3J5IjpbMTM1MjI4OTQyNF19
 -->
