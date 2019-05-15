@@ -26,7 +26,7 @@ Table of Contents:
 10.**Label**: To classify different kind of pods. 
  
 
-### Manifests
+# Manifests
 
 	ususally defined by .yaml or .json file
 	- Deployment: deploy pods based on spec
@@ -50,6 +50,6 @@ There are 3 types of manifests to expose a service
 3. **Ingress** Recommended way for production. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MDE0MTYzMSwzODg3NzYyODAsNjQyOD
-c5NDZdfQ==
+eyJoaXN0b3J5IjpbLTg4NDMzMjY0MSwxMjcwMTQxNjMxLDM4OD
+c3NjI4MCw2NDI4Nzk0Nl19
 -->
