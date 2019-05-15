@@ -42,10 +42,13 @@ Table of Contents:
 
 ### Expose a service
 There are 3 types of manifests to expose a service
+
 1. **NodePort**:  Assign the service to a port, access the service by port number. Ex:```<NodeIP>:<PortNumber>```, PortNumber is fixed, NodeIP could be any node that the service is running on. pods traffic is balanced in the same node, but not balanced in the different nodes . This is not good for production, but good for local testing by using kube-proxy.
-3. **LoadBalancer** Similar to NodePort, but expose the all ```<NodeIP>:<PortNumber>```to a external load balancer. Node traffic is balanced.
-4. **Ingress** Recommended way for production. 
+
+2. **LoadBalancer** Similar to NodePort, but expose the all ```<NodeIP>:<PortNumber>```to a external load balancer. Node traffic is balanced.
+
+3. **Ingress** Recommended way for production. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQyODc5NDZdfQ==
+eyJoaXN0b3J5IjpbMzg4Nzc2MjgwLDY0Mjg3OTQ2XX0=
 -->
