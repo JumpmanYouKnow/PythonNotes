@@ -3,13 +3,10 @@ title: "Kubernetes Notes"
 date: 2019-05-02
 ---
 Table of Contents:
-* [Basic Terms](#Basic Terms/objects)
+* [Basic Terms](#Basic-Terms/objects)
 * [Manifests](#Manifests)
 * [Run a service]()
-* [Expose a service]() 
-* [Secret, ConfigMap]() 
-* [Volume and PersistentVolume ]() 
-* [Autoscaling]()
+* [Expose a service](#Access-pod\(s\)-by service) 
 * [Helm]()
 
 ###  Basic Terms/objects
@@ -26,7 +23,7 @@ Table of Contents:
 10.**Label**: To classify different kind of pods. 
  
 
-# Manifests
+### Manifests
 
 	ususally defined by .yaml or .json file
 	- Deployment: deploy pods based on spec
@@ -50,6 +47,6 @@ There are 3 types of manifests to expose a service
 3. **Ingress** Recommended way for production. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NDMzMjY0MSwxMjcwMTQxNjMxLDM4OD
-c3NjI4MCw2NDI4Nzk0Nl19
+eyJoaXN0b3J5IjpbNDM0MDg4ODM3LC04ODQzMzI2NDEsMTI3MD
+E0MTYzMSwzODg3NzYyODAsNjQyODc5NDZdfQ==
 -->
