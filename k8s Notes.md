@@ -5,8 +5,7 @@ date: 2019-05-02
 Table of Contents:
 * [Basic Terms](#Basic-Terms/objects)
 * [Manifests](#Manifests)
-* [Run a service]()
-* [Expose a service](#Access-pod\(s\)-by service) 
+* [Expose a service]() 
 * [Helm]()
 
 ###  Basic Terms/objects
@@ -34,10 +33,9 @@ Table of Contents:
 	- Network Policy: Define a network policy to a set of pods(by label) like which set of pods(by label) or users(by namespace) can access.
 
 
-### Access pod(s) by service
+### Expose, Access pod(s) by service
 1. Create a ```Kind:Service ``` yaml, and define which pods your service is using (by using label)
 
-### Expose a service
 There are 3 types of manifests to expose a service
 
 1. **NodePort**:  Assign the service to a port, access the service by port number. Ex:```<NodeIP>:<PortNumber>```, PortNumber is fixed, NodeIP could be any node that the service is running on. pods traffic is balanced in the same node, but not balanced in the different nodes . This is not good for production, but good for local testing by using kube-proxy.
@@ -47,6 +45,6 @@ There are 3 types of manifests to expose a service
 3. **Ingress** Recommended way for production. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM0MDg4ODM3LC04ODQzMzI2NDEsMTI3MD
-E0MTYzMSwzODg3NzYyODAsNjQyODc5NDZdfQ==
+eyJoaXN0b3J5IjpbLTEzMzM2MTM0OCwtODg0MzMyNjQxLDEyNz
+AxNDE2MzEsMzg4Nzc2MjgwLDY0Mjg3OTQ2XX0=
 -->
