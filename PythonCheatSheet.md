@@ -78,6 +78,15 @@ python 3.x:
 pip3 install -r requirements.txt
 ```
 
+### 8. minHeap and maxHeap
+import heapq
+mylis = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]    
+heapq.heapify(mylis)             # for a min heap
+heapq.heappop(mylis)      # pop from minheap
+
+heapq._heapify_max(mylis) 
+heapq._heappop_max(mylis)
+
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTY3NTYxODM5NSwtOTM3NjI0Nzk3LDEwNj
