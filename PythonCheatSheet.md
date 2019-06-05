@@ -87,6 +87,10 @@ heapq.heappop(mylis)      # pop from minheap
 heapq._heapify_max(mylis) 
 heapq._heappop_max(mylis)
 
+### 9. init a NxM 2d array
+row = [0] * M
+twodarray = [row] * N
+
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTY3NTYxODM5NSwtOTM3NjI0Nzk3LDEwNj
