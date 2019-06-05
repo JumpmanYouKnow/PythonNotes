@@ -88,8 +88,8 @@ heapq._heapify_max(mylis)
 heapq._heappop_max(mylis)
 
 ### 9. init a NxM 2d array
-row = [0] * M
-twodarray = [row] * N
+n, m = 8, 5;
+matrix = [[0 for x in range(m)] for y in range(n)] 
 
 
 <!--stackedit_data:
