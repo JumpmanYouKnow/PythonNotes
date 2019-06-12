@@ -91,6 +91,16 @@ heapq._heappop_max(mylis)
 n, m = 8, 5;
 matrix = [[0 for x in range(m)] for y in range(n)] 
 
+### 10. topological ordering
+```Python
+import networkx as nx
+
+G = nx.DiGraph()
+G.add_edges_from([(0, 2), (1, 2), (2, 3)])
+all_topological_sorts = list(nx.algorithms.dag.all_topological_sorts(G))
+print([0, 1, 2, 3] in all_topological_sorts) # True
+print([2, 3, 1, 0] in all_topological_sorts) # False
+```
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTY3NTYxODM5NSwtOTM3NjI0Nzk3LDEwNj
