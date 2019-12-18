@@ -1,6 +1,6 @@
 ---
 title: "Kubernetes Notes"
-date: 2019-05-02
+date: 2019-12-18
 ---
 Table of Contents:
 * [Basic Terms](#Basic-Terms/objects)
@@ -45,6 +45,7 @@ There are 3 types of manifests to expose a service
 3. **Ingress** Recommended way for production. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzM2MTM0OCwtODg0MzMyNjQxLDEyNz
-AxNDE2MzEsMzg4Nzc2MjgwLDY0Mjg3OTQ2XX0=
+eyJoaXN0b3J5IjpbMTczNTQyNTk4OSwtMTMzMzYxMzQ4LC04OD
+QzMzI2NDEsMTI3MDE0MTYzMSwzODg3NzYyODAsNjQyODc5NDZd
+fQ==
 -->
