@@ -7,10 +7,11 @@ Kubernetes cheatsheet and notes, wrote while learning and working on k8s related
 
 ## Table of Contents:
 * [Basic Terms](#Basic-Terms)
-*  [Tools](#Tools)
-	*  [Helm](#Helm)
 * [Manifests](#Manifests)
 * [Expose A Service](#Expose-A-Service)
+*   [Tools](#Tools)
+	* [Kubectl](#Kubectl)
+	 * [Helm](#Helm)
 
 
 # Basic Terms
@@ -103,7 +104,7 @@ kubectl, kubeadmin, minikube, helm
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ0NDk1NzM3LDU4ODE2MzQ4MywxMTM1OT
+eyJoaXN0b3J5IjpbOTQxNjM5OTg1LDU4ODE2MzQ4MywxMTM1OT
 E1MTM3LDM2NDQ0NTgyNSwtMjA1NzM5NDExMCwxNzEyMDE0MjU5
 LC0xODk3MTIwMzcwLDEyNTU2NjIwMzcsNDY5MjM0NTA2LC03MD
 UxNTY3NDEsLTQxMTg1NTcwNCw5ODQzNDIzNTMsMjAyNDkzOTE2
