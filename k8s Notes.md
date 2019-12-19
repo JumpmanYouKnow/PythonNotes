@@ -43,6 +43,7 @@ manifests usually defined by .yaml or .json file, to manage (describe) resources
 	- HorizontalPodsAutoscaler(HPA): Autoscaler for pods, make sure the resources usage keeps at same level.(50% CPU/Memory Usage)
 	- Volume Claim Chain: To better manage a externel volume, to use a volume, must first claim it.
 	- Network Policy: Define a network policy to a set of pods(by label) like which set of pods(by label) or users(by namespace) can access.
+	- Secret: some secret you don't want others to know: ssh key, username/password
 
 
 # Expose A Service
@@ -79,7 +80,7 @@ Helm is like a manager of `charts`, you can use helm to pull, push, deploy a cha
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Njk4MDk5OTIsMTEzNTkxNTEzNywzNj
+eyJoaXN0b3J5IjpbLTIwMDA5ODUxMzYsMTEzNTkxNTEzNywzNj
 Q0NDU4MjUsLTIwNTczOTQxMTAsMTcxMjAxNDI1OSwtMTg5NzEy
 MDM3MCwxMjU1NjYyMDM3LDQ2OTIzNDUwNiwtNzA1MTU2NzQxLC
 00MTE4NTU3MDQsOTg0MzQyMzUzLDIwMjQ5MzkxNjUsMTgxMjEz
