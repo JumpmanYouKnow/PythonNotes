@@ -70,7 +70,7 @@ kubectl, kubeadmin, minikube, helm
 	usage: `kubectl port-forward -h`
 	
 
-3. **kubeadm**: admin tool to setup a cluster
+3. #kubeadm**: admin tool to setup a cluster
 4. **minikube**: setup & run a single node cluster locally for testing and dev purpose.
 5. ## Helm
    **Helm** is like a manager of `charts`, you can use helm to pull, push, deploy a chart and modify (upgrade) a depolyment.
@@ -94,11 +94,11 @@ kubectl, kubeadmin, minikube, helm
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzEyOTkyNTUsNTg4MTYzNDgzLDExMz
-U5MTUxMzcsMzY0NDQ1ODI1LC0yMDU3Mzk0MTEwLDE3MTIwMTQy
-NTksLTE4OTcxMjAzNzAsMTI1NTY2MjAzNyw0NjkyMzQ1MDYsLT
-cwNTE1Njc0MSwtNDExODU1NzA0LDk4NDM0MjM1MywyMDI0OTM5
-MTY1LDE4MTIxMzgwNzgsMTczNTQyNTk4OSwtMTMzMzYxMzQ4LC
-04ODQzMzI2NDEsMTI3MDE0MTYzMSwzODg3NzYyODAsNjQyODc5
-NDZdfQ==
+eyJoaXN0b3J5IjpbMTI3NzM5NDkxNiw1ODgxNjM0ODMsMTEzNT
+kxNTEzNywzNjQ0NDU4MjUsLTIwNTczOTQxMTAsMTcxMjAxNDI1
+OSwtMTg5NzEyMDM3MCwxMjU1NjYyMDM3LDQ2OTIzNDUwNiwtNz
+A1MTU2NzQxLC00MTE4NTU3MDQsOTg0MzQyMzUzLDIwMjQ5Mzkx
+NjUsMTgxMjEzODA3OCwxNzM1NDI1OTg5LC0xMzMzNjEzNDgsLT
+g4NDMzMjY0MSwxMjcwMTQxNjMxLDM4ODc3NjI4MCw2NDI4Nzk0
+Nl19
 -->
