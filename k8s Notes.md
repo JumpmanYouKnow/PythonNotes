@@ -59,17 +59,17 @@ There are 3 types of manifests to expose a service
 3. **Ingress** Recommended way for production. 
 
 # Helm
-Helm is like a manager of `charts`, you can use helm to pull, push, deploy `charts`.
+Helm is like a manager of `charts`, you can use helm to pull, push, deploy a chart and .
 
 
 - get  values.yaml of a chart 
-``
+`helm inspect values `
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjgyMDEyNDQsLTE4OTcxMjAzNzAsMT
-I1NTY2MjAzNyw0NjkyMzQ1MDYsLTcwNTE1Njc0MSwtNDExODU1
-NzA0LDk4NDM0MjM1MywyMDI0OTM5MTY1LDE4MTIxMzgwNzgsMT
-czNTQyNTk4OSwtMTMzMzYxMzQ4LC04ODQzMzI2NDEsMTI3MDE0
-MTYzMSwzODg3NzYyODAsNjQyODc5NDZdfQ==
+eyJoaXN0b3J5IjpbMTcxMjAxNDI1OSwtMTg5NzEyMDM3MCwxMj
+U1NjYyMDM3LDQ2OTIzNDUwNiwtNzA1MTU2NzQxLC00MTE4NTU3
+MDQsOTg0MzQyMzUzLDIwMjQ5MzkxNjUsMTgxMjEzODA3OCwxNz
+M1NDI1OTg5LC0xMzMzNjEzNDgsLTg4NDMzMjY0MSwxMjcwMTQx
+NjMxLDM4ODc3NjI4MCw2NDI4Nzk0Nl19
 -->
