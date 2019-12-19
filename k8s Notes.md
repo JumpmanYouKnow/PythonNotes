@@ -60,10 +60,10 @@ There are 3 types of manifests to expose a service
 
 # Helm
 Helm is like a manager of `charts`, you can use helm to pull, push, deploy a chart and modify (upgrade) a depolyment.
-[chart_repository](https://helm.sh/docs/topics/chart_repository/)
-1. **repository**:
-`helm repo add []`
-
+More about [chart repository](https://helm.sh/docs/topics/chart_repository/)
+1. **pull chart from repository**:
+`helm repo add [chartName] [RepoUrl]`
+2. 
 
 3. **upgrade**: 
 - get  values.yaml of a chart, stores at values.yaml
@@ -74,10 +74,10 @@ Helm is like a manager of `charts`, you can use helm to pull, push, deploy a cha
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMzI2NDEsMzY0NDQ1ODI1LC0yMDU3Mz
-k0MTEwLDE3MTIwMTQyNTksLTE4OTcxMjAzNzAsMTI1NTY2MjAz
-Nyw0NjkyMzQ1MDYsLTcwNTE1Njc0MSwtNDExODU1NzA0LDk4ND
-M0MjM1MywyMDI0OTM5MTY1LDE4MTIxMzgwNzgsMTczNTQyNTk4
-OSwtMTMzMzYxMzQ4LC04ODQzMzI2NDEsMTI3MDE0MTYzMSwzOD
-g3NzYyODAsNjQyODc5NDZdfQ==
+eyJoaXN0b3J5IjpbLTEyNzYwOTMxODMsMzY0NDQ1ODI1LC0yMD
+U3Mzk0MTEwLDE3MTIwMTQyNTksLTE4OTcxMjAzNzAsMTI1NTY2
+MjAzNyw0NjkyMzQ1MDYsLTcwNTE1Njc0MSwtNDExODU1NzA0LD
+k4NDM0MjM1MywyMDI0OTM5MTY1LDE4MTIxMzgwNzgsMTczNTQy
+NTk4OSwtMTMzMzYxMzQ4LC04ODQzMzI2NDEsMTI3MDE0MTYzMS
+wzODg3NzYyODAsNjQyODc5NDZdfQ==
 -->
