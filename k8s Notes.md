@@ -27,7 +27,7 @@ Kubernetes cheatsheet and notes, recorded while learning and working on k8s rela
 4. **node**: a virtual/physical machine
 5. **pod**: a set of containers to orchestrate, minimal object to scale
 6. **container**: docker container runs in pod
-7. **
+7. **chart**: an image of \ your pods, that can be deployed.
 8. **Job**: a wrapper to pod, usually runs a pod that carrying tasks that run only once, like db migration.
 9. **Service**: a wrapper to pod, one or more pods to perform a service.
 10. **Volumes**: file storage system, lives with node. Can define externel volumes on cloud providers, lives with cloud providers.
@@ -64,8 +64,8 @@ Helm is
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NDQ3Mjc2NSw5ODQzNDIzNTMsMjAyND
-kzOTE2NSwxODEyMTM4MDc4LDE3MzU0MjU5ODksLTEzMzM2MTM0
-OCwtODg0MzMyNjQxLDEyNzAxNDE2MzEsMzg4Nzc2MjgwLDY0Mj
-g3OTQ2XX0=
+eyJoaXN0b3J5IjpbLTE4OTc4NTY5MDksOTg0MzQyMzUzLDIwMj
+Q5MzkxNjUsMTgxMjEzODA3OCwxNzM1NDI1OTg5LC0xMzMzNjEz
+NDgsLTg4NDMzMjY0MSwxMjcwMTQxNjMxLDM4ODc3NjI4MCw2ND
+I4Nzk0Nl19
 -->
