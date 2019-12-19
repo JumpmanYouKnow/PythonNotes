@@ -3,6 +3,7 @@ title: "Kubernetes Notes"
 date: 2019-12-18
 ---
 
+
 Kubernetes cheatsheet and notes, recorded while learning and working on k8s related projects.
 
 ## Table of Contents:
@@ -11,9 +12,6 @@ Kubernetes cheatsheet and notes, recorded while learning and working on k8s rela
 * [Manifests](#Manifests)
 * [Expose A Service](#Expose-A-Service)
 * [Helm](#Helm)
-
-
-
 
 # Basic Terms
 	cluster, context, namespace, node, pods.
@@ -27,9 +25,9 @@ Kubernetes cheatsheet and notes, recorded while learning and working on k8s rela
 8. **Job**: a wrapper to pod, usually runs a pod that carrying tasks that run only once, like db migration.
 9. **Service**: a wrapper to pod, one or more pods to perform a service.
 10. **Volumes**: file storage system, lives with node. Can define externel volumes on cloud providers, lives with cloud providers.
-10.**Label**: To classify different kind of pods. 
+11. **Label**: To classify different kind of pods. 
  
- # Tools
+# Tools
 kubectl, kubeadmin, minikube, helm
 1. **kubectl**: 
 2. **minikube**:
@@ -66,8 +64,8 @@ Helm is
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMTg1NTcwNCw5ODQzNDIzNTMsMjAyND
-kzOTE2NSwxODEyMTM4MDc4LDE3MzU0MjU5ODksLTEzMzM2MTM0
-OCwtODg0MzMyNjQxLDEyNzAxNDE2MzEsMzg4Nzc2MjgwLDY0Mj
-g3OTQ2XX0=
+eyJoaXN0b3J5IjpbMTA4NzI1NzIxMSwtNDExODU1NzA0LDk4ND
+M0MjM1MywyMDI0OTM5MTY1LDE4MTIxMzgwNzgsMTczNTQyNTk4
+OSwtMTMzMzYxMzQ4LC04ODQzMzI2NDEsMTI3MDE0MTYzMSwzOD
+g3NzYyODAsNjQyODc5NDZdfQ==
 -->
