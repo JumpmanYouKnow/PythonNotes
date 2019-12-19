@@ -13,7 +13,7 @@ Kubernetes cheatsheet and notes, recorded while learning and working on k8s rela
 * [Helm](#Helm)
 
 
-# 
+# t
 
 # Basic Terms
 	cluster, context, namespace, node, pods.
@@ -59,7 +59,7 @@ Helm is
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNzQ2MDU1OSw5ODQzNDIzNTMsMjAyND
+eyJoaXN0b3J5IjpbMTM0MzUyMDA0NSw5ODQzNDIzNTMsMjAyND
 kzOTE2NSwxODEyMTM4MDc4LDE3MzU0MjU5ODksLTEzMzM2MTM0
 OCwtODg0MzMyNjQxLDEyNzAxNDE2MzEsMzg4Nzc2MjgwLDY0Mj
 g3OTQ2XX0=
