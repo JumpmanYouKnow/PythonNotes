@@ -8,7 +8,7 @@ Table of Contents:
 * [Expose a service]() 
 * [Helm]()
 
-###  Basic Terms/objects
+# Basic Terms/objects
 	cluster, context, namespace, node, pods.
 1. **cluster**: physical cluster of physical machine.
 2. **context**: a group of access parameters,  a cluster, a namespace, a user.
@@ -22,7 +22,7 @@ Table of Contents:
 10.**Label**: To classify different kind of pods. 
  
 
-### Manifests
+# Manifests
 
 	ususally defined by .yaml or .json file
 	- Deployment: deploy pods based on spec
@@ -45,7 +45,7 @@ There are 3 types of manifests to expose a service
 3. **Ingress** Recommended way for production. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMjEzODA3OCwxNzM1NDI1OTg5LC0xMz
-MzNjEzNDgsLTg4NDMzMjY0MSwxMjcwMTQxNjMxLDM4ODc3NjI4
-MCw2NDI4Nzk0Nl19
+eyJoaXN0b3J5IjpbMjEwNDE3ODg2MiwxODEyMTM4MDc4LDE3Mz
+U0MjU5ODksLTEzMzM2MTM0OCwtODg0MzMyNjQxLDEyNzAxNDE2
+MzEsMzg4Nzc2MjgwLDY0Mjg3OTQ2XX0=
 -->
