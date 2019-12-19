@@ -5,8 +5,8 @@ date: 2019-12-18
 Table of Contents:
 * [Basic Terms](#Basic-Terms)
 * [Manifests](#Manifests)
-* [Expose a service]() 
-* [Helm]()
+* [Expose a service](#Expose a service) 
+* [Helm](#Helm)
 
 # Basic Terms
 	cluster, context, namespace, node, pods.
@@ -45,7 +45,7 @@ There are 3 types of manifests to expose a service
 3. **Ingress** Recommended way for production. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNDkzOTE2NSwxODEyMTM4MDc4LDE3Mz
-U0MjU5ODksLTEzMzM2MTM0OCwtODg0MzMyNjQxLDEyNzAxNDE2
-MzEsMzg4Nzc2MjgwLDY0Mjg3OTQ2XX0=
+eyJoaXN0b3J5IjpbOTg0MzQyMzUzLDIwMjQ5MzkxNjUsMTgxMj
+EzODA3OCwxNzM1NDI1OTg5LC0xMzMzNjEzNDgsLTg4NDMzMjY0
+MSwxMjcwMTQxNjMxLDM4ODc3NjI4MCw2NDI4Nzk0Nl19
 -->
