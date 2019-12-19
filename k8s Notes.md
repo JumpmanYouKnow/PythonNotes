@@ -60,6 +60,7 @@ There are 3 types of manifests to expose a service
 
 # Tools
 kubectl, kubeadmin, minikube, helm
+
 1. ## Kubectl: 
 	**Kubectl** is a user tool to interact with the cluster
 	1. **get info about the cluster (pod, service, deployment, replicaset, statefulset etc):**<br>
@@ -109,11 +110,11 @@ kubectl, kubeadmin, minikube, helm
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg0NTgxMzI5LDU4ODE2MzQ4MywxMTM1OT
-E1MTM3LDM2NDQ0NTgyNSwtMjA1NzM5NDExMCwxNzEyMDE0MjU5
-LC0xODk3MTIwMzcwLDEyNTU2NjIwMzcsNDY5MjM0NTA2LC03MD
-UxNTY3NDEsLTQxMTg1NTcwNCw5ODQzNDIzNTMsMjAyNDkzOTE2
-NSwxODEyMTM4MDc4LDE3MzU0MjU5ODksLTEzMzM2MTM0OCwtOD
-g0MzMyNjQxLDEyNzAxNDE2MzEsMzg4Nzc2MjgwLDY0Mjg3OTQ2
-XX0=
+eyJoaXN0b3J5IjpbLTE3MTM4ODQ4MSw4ODQ1ODEzMjksNTg4MT
+YzNDgzLDExMzU5MTUxMzcsMzY0NDQ1ODI1LC0yMDU3Mzk0MTEw
+LDE3MTIwMTQyNTksLTE4OTcxMjAzNzAsMTI1NTY2MjAzNyw0Nj
+kyMzQ1MDYsLTcwNTE1Njc0MSwtNDExODU1NzA0LDk4NDM0MjM1
+MywyMDI0OTM5MTY1LDE4MTIxMzgwNzgsMTczNTQyNTk4OSwtMT
+MzMzYxMzQ4LC04ODQzMzI2NDEsMTI3MDE0MTYzMSwzODg3NzYy
+ODBdfQ==
 -->
