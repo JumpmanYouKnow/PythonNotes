@@ -12,6 +12,7 @@ Kubernetes cheatsheet and notes, wrote while learning and working on k8s related
 *   [Tools](#Tools)
 	* [Kubectl](#Kubectl)
 	 * [Helm](#Helm)
+	 * [Kubeadmin](#)
 
 
 # Basic Terms
@@ -100,16 +101,18 @@ kubectl, kubeadmin, minikube, helm
 4. ## minikube: 
 	 **Minikube**: setup & run a single node cluster locally for testing and dev purpose.
 	 1.  usage: `minikube -h`
-	 
-
+	2.  **usual workflow**:<br>
+		`minikube start [computingResourceConfig]`
+`minikube status`
+`minikube stop`
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NjI5MTUwOCw1ODgxNjM0ODMsMTEzNT
-kxNTEzNywzNjQ0NDU4MjUsLTIwNTczOTQxMTAsMTcxMjAxNDI1
-OSwtMTg5NzEyMDM3MCwxMjU1NjYyMDM3LDQ2OTIzNDUwNiwtNz
-A1MTU2NzQxLC00MTE4NTU3MDQsOTg0MzQyMzUzLDIwMjQ5Mzkx
-NjUsMTgxMjEzODA3OCwxNzM1NDI1OTg5LC0xMzMzNjEzNDgsLT
-g4NDMzMjY0MSwxMjcwMTQxNjMxLDM4ODc3NjI4MCw2NDI4Nzk0
-Nl19
+eyJoaXN0b3J5IjpbOTIyMzg1Nzc3LDU4ODE2MzQ4MywxMTM1OT
+E1MTM3LDM2NDQ0NTgyNSwtMjA1NzM5NDExMCwxNzEyMDE0MjU5
+LC0xODk3MTIwMzcwLDEyNTU2NjIwMzcsNDY5MjM0NTA2LC03MD
+UxNTY3NDEsLTQxMTg1NTcwNCw5ODQzNDIzNTMsMjAyNDkzOTE2
+NSwxODEyMTM4MDc4LDE3MzU0MjU5ODksLTEzMzM2MTM0OCwtOD
+g0MzMyNjQxLDEyNzAxNDE2MzEsMzg4Nzc2MjgwLDY0Mjg3OTQ2
+XX0=
 -->
