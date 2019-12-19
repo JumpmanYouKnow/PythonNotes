@@ -56,7 +56,8 @@ There are 3 types of manifests to expose a service
 # Tools
 kubectl, kubeadmin, minikube, helm
 1. ## kubectl: 
-	user tool to interact with the cluster
+	**kubectl** is a user tool to interact with the cluster
+	get po
 	
 
 3. **kubeadm**: admin tool to setup a cluster
@@ -82,10 +83,11 @@ kubectl, kubeadmin, minikube, helm
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg4MTYzNDgzLDExMzU5MTUxMzcsMzY0ND
-Q1ODI1LC0yMDU3Mzk0MTEwLDE3MTIwMTQyNTksLTE4OTcxMjAz
-NzAsMTI1NTY2MjAzNyw0NjkyMzQ1MDYsLTcwNTE1Njc0MSwtND
-ExODU1NzA0LDk4NDM0MjM1MywyMDI0OTM5MTY1LDE4MTIxMzgw
-NzgsMTczNTQyNTk4OSwtMTMzMzYxMzQ4LC04ODQzMzI2NDEsMT
-I3MDE0MTYzMSwzODg3NzYyODAsNjQyODc5NDZdfQ==
+eyJoaXN0b3J5IjpbMzMzNjczOTkzLDU4ODE2MzQ4MywxMTM1OT
+E1MTM3LDM2NDQ0NTgyNSwtMjA1NzM5NDExMCwxNzEyMDE0MjU5
+LC0xODk3MTIwMzcwLDEyNTU2NjIwMzcsNDY5MjM0NTA2LC03MD
+UxNTY3NDEsLTQxMTg1NTcwNCw5ODQzNDIzNTMsMjAyNDkzOTE2
+NSwxODEyMTM4MDc4LDE3MzU0MjU5ODksLTEzMzM2MTM0OCwtOD
+g0MzMyNjQxLDEyNzAxNDE2MzEsMzg4Nzc2MjgwLDY0Mjg3OTQ2
+XX0=
 -->
