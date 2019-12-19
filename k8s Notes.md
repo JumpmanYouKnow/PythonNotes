@@ -23,7 +23,7 @@ Table of Contents:
  
 
 # Manifests
-manifests ususally defined by .yaml or .json file, to manage resourc
+manifests ususally defined by .yaml or .json file, to manage resources.
 
 
 	- Deployment: deploy pods based on spec
@@ -46,7 +46,7 @@ There are 3 types of manifests to expose a service
 3. **Ingress** Recommended way for production. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMzg5MDkwMiw5ODQzNDIzNTMsMjAyND
+eyJoaXN0b3J5IjpbLTE3NDM1NzY0Miw5ODQzNDIzNTMsMjAyND
 kzOTE2NSwxODEyMTM4MDc4LDE3MzU0MjU5ODksLTEzMzM2MTM0
 OCwtODg0MzMyNjQxLDEyNzAxNDE2MzEsMzg4Nzc2MjgwLDY0Mj
 g3OTQ2XX0=
