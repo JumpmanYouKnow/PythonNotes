@@ -64,8 +64,8 @@ Helm is like a manager of `charts`, you can use helm to pull, push, deploy a cha
 1. **pull  repo from [remote chart repository](https://helm.sh/docs/topics/chart_repository/) to local:** 
 `helm repo add [repoName] [RepoUrl]`
 `helm update`
-2.  **deploy  chart from local repo**
-`helm rep`
+2.  **deploy (install)  chart from local repo**
+`helm install [repoName]/[chartName] --generate-name`
 3. **upgrade**: 
 - get  values.yaml of a chart, stores at values.yaml
 `helm inspect values [chartName] > newValues.yaml`
@@ -75,10 +75,10 @@ Helm is like a manager of `charts`, you can use helm to pull, push, deploy a cha
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNTkxNTEzNywzNjQ0NDU4MjUsLTIwNT
-czOTQxMTAsMTcxMjAxNDI1OSwtMTg5NzEyMDM3MCwxMjU1NjYy
-MDM3LDQ2OTIzNDUwNiwtNzA1MTU2NzQxLC00MTE4NTU3MDQsOT
-g0MzQyMzUzLDIwMjQ5MzkxNjUsMTgxMjEzODA3OCwxNzM1NDI1
-OTg5LC0xMzMzNjEzNDgsLTg4NDMzMjY0MSwxMjcwMTQxNjMxLD
-M4ODc3NjI4MCw2NDI4Nzk0Nl19
+eyJoaXN0b3J5IjpbLTEwOTc4NDMxMzEsMTEzNTkxNTEzNywzNj
+Q0NDU4MjUsLTIwNTczOTQxMTAsMTcxMjAxNDI1OSwtMTg5NzEy
+MDM3MCwxMjU1NjYyMDM3LDQ2OTIzNDUwNiwtNzA1MTU2NzQxLC
+00MTE4NTU3MDQsOTg0MzQyMzUzLDIwMjQ5MzkxNjUsMTgxMjEz
+ODA3OCwxNzM1NDI1OTg5LC0xMzMzNjEzNDgsLTg4NDMzMjY0MS
+wxMjcwMTQxNjMxLDM4ODc3NjI4MCw2NDI4Nzk0Nl19
 -->
