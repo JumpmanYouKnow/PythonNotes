@@ -2,10 +2,12 @@
 title: "Kubernetes Notes"
 date: 2019-12-18
 ---
+
+Kubernetes cheatsheet and notes, recorded while learning on 
 Table of Contents:
 * [Basic Terms](#Basic-Terms)
 * [Manifests](#Manifests)
-* [Expose A Service](#Expose a service) 
+* [Expose A Service](#Expose A Service) 
 * [Helm](#Helm)
 
 # Basic Terms
@@ -49,8 +51,8 @@ There are 3 types of manifests to expose a service
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MzY3ODAyNCw5ODQzNDIzNTMsMjAyND
-kzOTE2NSwxODEyMTM4MDc4LDE3MzU0MjU5ODksLTEzMzM2MTM0
-OCwtODg0MzMyNjQxLDEyNzAxNDE2MzEsMzg4Nzc2MjgwLDY0Mj
-g3OTQ2XX0=
+eyJoaXN0b3J5IjpbLTEzNTI5MDEwMTYsOTg0MzQyMzUzLDIwMj
+Q5MzkxNjUsMTgxMjEzODA3OCwxNzM1NDI1OTg5LC0xMzMzNjEz
+NDgsLTg4NDMzMjY0MSwxMjcwMTQxNjMxLDM4ODc3NjI4MCw2ND
+I4Nzk0Nl19
 -->
