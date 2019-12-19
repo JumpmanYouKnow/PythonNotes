@@ -63,13 +63,14 @@ Helm is like a manager of `charts`, you can use helm to pull, push, deploy a cha
 
 1. **upgrade**: 
 - get  values.yaml of a chart, stores at values.yaml
-`helm inspect values [chartName] `
+`helm inspect values [chartName] > newValues.yaml` 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTczOTQxMTAsMTcxMjAxNDI1OSwtMT
-g5NzEyMDM3MCwxMjU1NjYyMDM3LDQ2OTIzNDUwNiwtNzA1MTU2
-NzQxLC00MTE4NTU3MDQsOTg0MzQyMzUzLDIwMjQ5MzkxNjUsMT
-gxMjEzODA3OCwxNzM1NDI1OTg5LC0xMzMzNjEzNDgsLTg4NDMz
-MjY0MSwxMjcwMTQxNjMxLDM4ODc3NjI4MCw2NDI4Nzk0Nl19
+eyJoaXN0b3J5IjpbMjk0OTMzMDA5LC0yMDU3Mzk0MTEwLDE3MT
+IwMTQyNTksLTE4OTcxMjAzNzAsMTI1NTY2MjAzNyw0NjkyMzQ1
+MDYsLTcwNTE1Njc0MSwtNDExODU1NzA0LDk4NDM0MjM1MywyMD
+I0OTM5MTY1LDE4MTIxMzgwNzgsMTczNTQyNTk4OSwtMTMzMzYx
+MzQ4LC04ODQzMzI2NDEsMTI3MDE0MTYzMSwzODg3NzYyODAsNj
+QyODc5NDZdfQ==
 -->
