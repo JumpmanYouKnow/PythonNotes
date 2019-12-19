@@ -13,7 +13,7 @@ Kubernetes cheatsheet and notes, wrote while learning and working on k8s related
 * [Helm](#Helm)
 
 # Basic Terms
-	some basic termnology w
+	some basic termnologies used by kubernetes
 1. **cluster**: physical cluster of physical machine.
 2. **context**: a group of access parameters,  a cluster, a namespace, a user.
 3. **namespace**: virtual cluster, use to separate resources across different environments like prod, dev, test.
@@ -23,8 +23,8 @@ Kubernetes cheatsheet and notes, wrote while learning and working on k8s related
 7. **chart**: a collect of files that describes your pod orchestration, that can be used to deploy a set of pods.
 8. **Job**: a wrapper to pod, usually runs a pod that carrying tasks that run only once, like db migration.
 9. **Service**: a wrapper to pod, one or more pods to perform a service.
-10. **Volumes**: file storage system, lives with node. Can define externel volumes on cloud providers, lives with cloud providers.
-11. **Label**: To classify different kind of pods. 
+10. **Volumes**: file storage system, lives with node. Can define external volumes on cloud providers, lives with cloud providers.
+11. **Label**: to classify different kind of pods. 
  
 # Tools
 kubectl, kubeadmin, minikube, helm
@@ -48,26 +48,26 @@ manifests usually defined by .yaml or .json file, to manage (describe) resources
 # Expose A Service
 
 
-1. Create a ```Kind:Service ``` yaml, and define which pods your service is using (by using label)
+1. Create a `Kind:Service` yaml, and define which pods your service is using (by using label)
 
 There are 3 types of manifests to expose a service
 
-1. **NodePort**:  Assign the service to a port, access the service by port number. Ex:```<NodeIP>:<PortNumber>```, PortNumber is fixed, NodeIP could be any node that the service is running on. pods traffic is balanced in the same node, but not balanced in the different nodes . This is not good for production, but good for local testing by using kube-proxy.
+1. **NodePort**:  Assign the service to a port, access the service by port number. Ex:`<NodeIP>:<PortNumber>`, PortNumber is fixed, NodeIP could be any node that the service is running on. pods traffic is balanced in the same node, but not balanced in the different nodes . This is not good for production, but good for local testing by using kube-proxy.
 
-2. **LoadBalancer** Similar to NodePort, but expose the all ```<NodeIP>:<PortNumber>```to a external load balancer. Node traffic is balanced.
+2. **LoadBalancer** Similar to NodePort, but expose the all `<NodeIP>:<PortNumber>=`to a external load balancer. Node traffic is balanced.
 
 3. **Ingress** Recommended way for production. 
 
 # Helm
-Helm is 
+Helm is like a manager of charts, you can use helm
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ1NTk1NTAxLDEyNTU2NjIwMzcsNDY5Mj
-M0NTA2LC03MDUxNTY3NDEsLTQxMTg1NTcwNCw5ODQzNDIzNTMs
-MjAyNDkzOTE2NSwxODEyMTM4MDc4LDE3MzU0MjU5ODksLTEzMz
-M2MTM0OCwtODg0MzMyNjQxLDEyNzAxNDE2MzEsMzg4Nzc2Mjgw
-LDY0Mjg3OTQ2XX0=
+eyJoaXN0b3J5IjpbLTE4OTcxMjAzNzAsMTI1NTY2MjAzNyw0Nj
+kyMzQ1MDYsLTcwNTE1Njc0MSwtNDExODU1NzA0LDk4NDM0MjM1
+MywyMDI0OTM5MTY1LDE4MTIxMzgwNzgsMTczNTQyNTk4OSwtMT
+MzMzYxMzQ4LC04ODQzMzI2NDEsMTI3MDE0MTYzMSwzODg3NzYy
+ODAsNjQyODc5NDZdfQ==
 -->
