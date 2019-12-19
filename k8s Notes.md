@@ -71,18 +71,7 @@ kubectl, kubeadmin, minikube, helm
 	3. **forward a request from a port**
 	usage: `kubectl port-forward -h`
 	
-
-2. ## kubeadm:
-	 **kubeadm** is admin tool to setup a cluster
-	 1. 
-	 2. 
-	
- 
-3. ## minikube: 
-	 **Minikube**: setup & run a single node cluster locally for testing and dev purpose.
-	 1. 
-	 2. 
-6. ## Helm
+2. ## Helm
    **Helm** is like a manager of `charts`, you can use helm to pull, push, deploy a chart and modify (upgrade) a depolyment.
 
    1. **pull  repo from [remote chart repository](https://helm.sh/docs/topics/chart_repository/) to local:**<br>`helm repo add [repoName] [RepoUrl]`
@@ -90,20 +79,31 @@ kubectl, kubeadmin, minikube, helm
 
    2. **deploy (install)  chart from local repo**:
 `helm install [repoName]/[chartName] [releaseName]`
-	3. **releaseName** can be auto-generated using `--generate-name` 
-	4. **upgrade**:
+	Note **Note:** can be auto-generated using `--generate-name` 
+	4. **upgrade**:<br>
  -- get  values.yaml of a chart, stores at values.yaml
 `helm inspect values [chartName] > newValues.yaml`
 -- edit the `newValues.yaml` to describe the upgrade
 -- deploy the upgrade
 `helm upgrade [releaseName] [chartName] -f newValues.yaml` <br>
-	5. **clean/remove the release**:
+	5. **clean/remove the release**:<br>
 `helm uninstall [releaseName]`
+
+3. ## kubeadm:
+	 **kubeadm** is admin tool to setup a cluster
+	 1. <br>
+	 2. <br>
+	
+ 
+4. ## minikube: 
+	 **Minikube**: setup & run a single node cluster locally for testing and dev purpose.
+	 1. <br>
+	 2. <br>
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDM3ODY2NjksNTg4MTYzNDgzLDExMz
+eyJoaXN0b3J5IjpbLTE0NTcxNTk5NzQsNTg4MTYzNDgzLDExMz
 U5MTUxMzcsMzY0NDQ1ODI1LC0yMDU3Mzk0MTEwLDE3MTIwMTQy
 NTksLTE4OTcxMjAzNzAsMTI1NTY2MjAzNyw0NjkyMzQ1MDYsLT
 cwNTE1Njc0MSwtNDExODU1NzA0LDk4NDM0MjM1MywyMDI0OTM5
