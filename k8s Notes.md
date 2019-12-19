@@ -6,10 +6,14 @@ date: 2019-12-18
 Kubernetes cheatsheet and notes, recorded while learning and working on k8s related projects.
 
 ## Table of Contents:
+* [Tools](#Tools)
 * [Basic Terms](#Basic-Terms)
 * [Manifests](#Manifests)
 * [Expose A Service](#Expose-A-Service)
 * [Helm](#Helm)
+
+
+# 
 
 # Basic Terms
 	cluster, context, namespace, node, pods.
@@ -48,12 +52,15 @@ There are 3 types of manifests to expose a service
 
 3. **Ingress** Recommended way for production. 
 
+# Helm
+Helm is 
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgyMzUxMDc3LDk4NDM0MjM1MywyMDI0OT
-M5MTY1LDE4MTIxMzgwNzgsMTczNTQyNTk4OSwtMTMzMzYxMzQ4
-LC04ODQzMzI2NDEsMTI3MDE0MTYzMSwzODg3NzYyODAsNjQyOD
-c5NDZdfQ==
+eyJoaXN0b3J5IjpbMTcxNzQ2MDU1OSw5ODQzNDIzNTMsMjAyND
+kzOTE2NSwxODEyMTM4MDc4LDE3MzU0MjU5ODksLTEzMzM2MTM0
+OCwtODg0MzMyNjQxLDEyNzAxNDE2MzEsMzg4Nzc2MjgwLDY0Mj
+g3OTQ2XX0=
 -->
