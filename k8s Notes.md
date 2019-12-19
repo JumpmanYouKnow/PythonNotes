@@ -5,7 +5,7 @@ date: 2019-12-18
 Table of Contents:
 * [Basic Terms](#Basic-Terms)
 * [Manifests](#Manifests)
-* [Expose a service](#Expose a service) 
+* [Expose A Service](#Expose a service) 
 * [Helm](#Helm)
 
 # Basic Terms
@@ -34,7 +34,7 @@ manifests usually defined by .yaml or .json file, to manage resources.
 	- Network Policy: Define a network policy to a set of pods(by label) like which set of pods(by label) or users(by namespace) can access.
 
 
-### Expose, Access pod(s) by service
+# Expose A Service
 1. Create a ```Kind:Service ``` yaml, and define which pods your service is using (by using label)
 
 There are 3 types of manifests to expose a service
@@ -44,9 +44,12 @@ There are 3 types of manifests to expose a service
 2. **LoadBalancer** Similar to NodePort, but expose the all ```<NodeIP>:<PortNumber>```to a external load balancer. Node traffic is balanced.
 
 3. **Ingress** Recommended way for production. 
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNjMzMTY4Nyw5ODQzNDIzNTMsMjAyND
+eyJoaXN0b3J5IjpbLTM2MzY3ODAyNCw5ODQzNDIzNTMsMjAyND
 kzOTE2NSwxODEyMTM4MDc4LDE3MzU0MjU5ODksLTEzMzM2MTM0
 OCwtODg0MzMyNjQxLDEyNzAxNDE2MzEsMzg4Nzc2MjgwLDY0Mj
 g3OTQ2XX0=
