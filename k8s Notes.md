@@ -23,8 +23,9 @@ Table of Contents:
  
 
 # Manifests
+manifests ususally defined by .yaml or .json file, to manage resourc
 
-	ususally defined by .yaml or .json file
+
 	- Deployment: deploy pods based on spec
 	- ReplicaSet: deploy pods as replica 
 	- DaemonSet:  deploy pods based on spec, ensure each node get one replica.
@@ -45,7 +46,8 @@ There are 3 types of manifests to expose a service
 3. **Ingress** Recommended way for production. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg0MzQyMzUzLDIwMjQ5MzkxNjUsMTgxMj
-EzODA3OCwxNzM1NDI1OTg5LC0xMzMzNjEzNDgsLTg4NDMzMjY0
-MSwxMjcwMTQxNjMxLDM4ODc3NjI4MCw2NDI4Nzk0Nl19
+eyJoaXN0b3J5IjpbLTgzMzg5MDkwMiw5ODQzNDIzNTMsMjAyND
+kzOTE2NSwxODEyMTM4MDc4LDE3MzU0MjU5ODksLTEzMzM2MTM0
+OCwtODg0MzMyNjQxLDEyNzAxNDE2MzEsMzg4Nzc2MjgwLDY0Mj
+g3OTQ2XX0=
 -->
