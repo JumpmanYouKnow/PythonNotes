@@ -1,9 +1,9 @@
 ---
 title: "Kubernetes Notes"
-date: 2019-12-18
+date: 2019-12-
 ---
 Table of Contents:
-* [Basic Terms](Basic-Terms/objects)
+* [Basic Terms](#Basic-Terms/objects)
 * [Manifests](#Manifests)
 * [Expose a service]() 
 * [Helm]()
@@ -45,7 +45,7 @@ There are 3 types of manifests to expose a service
 3. **Ingress** Recommended way for production. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MTgwNDg0LDE3MzU0MjU5ODksLTEzMz
-M2MTM0OCwtODg0MzMyNjQxLDEyNzAxNDE2MzEsMzg4Nzc2Mjgw
-LDY0Mjg3OTQ2XX0=
+eyJoaXN0b3J5IjpbMTgxMjEzODA3OCwxNzM1NDI1OTg5LC0xMz
+MzNjEzNDgsLTg4NDMzMjY0MSwxMjcwMTQxNjMxLDM4ODc3NjI4
+MCw2NDI4Nzk0Nl19
 -->
