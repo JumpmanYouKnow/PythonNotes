@@ -30,8 +30,8 @@ Kubernetes cheatsheet and notes, wrote while learning and working on k8s related
 kubectl, kubeadmin, minikube, helm
 1. **kubectl**: user tool to interact with the cluster
 2. **kubeadm**: admin tool to setup a cluster
-3. **minikube**:
-5. **helm**: Manage charts
+3. **minikube**: setup & run a single node cluster locally for testing and dev purpose.
+5. **helm**:  charts manager
 
 # Manifests
 
@@ -65,9 +65,9 @@ Helm is
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NTY2MjAzNyw0NjkyMzQ1MDYsLTcwNT
-E1Njc0MSwtNDExODU1NzA0LDk4NDM0MjM1MywyMDI0OTM5MTY1
-LDE4MTIxMzgwNzgsMTczNTQyNTk4OSwtMTMzMzYxMzQ4LC04OD
-QzMzI2NDEsMTI3MDE0MTYzMSwzODg3NzYyODAsNjQyODc5NDZd
-fQ==
+eyJoaXN0b3J5IjpbODAzODEzNTAxLDEyNTU2NjIwMzcsNDY5Mj
+M0NTA2LC03MDUxNTY3NDEsLTQxMTg1NTcwNCw5ODQzNDIzNTMs
+MjAyNDkzOTE2NSwxODEyMTM4MDc4LDE3MzU0MjU5ODksLTEzMz
+M2MTM0OCwtODg0MzMyNjQxLDEyNzAxNDE2MzEsMzg4Nzc2Mjgw
+LDY0Mjg3OTQ2XX0=
 -->
