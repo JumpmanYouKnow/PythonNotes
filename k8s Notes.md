@@ -62,7 +62,7 @@ kubectl, kubeadmin, minikube, helm
 	pods:  	`kubectl get pods`
 	nodes:`kubectl get nodes`<br>
 	
-	**get logs for a pod**
+	**get logs for a pod, **
 	
 
 3. **kubeadm**: admin tool to setup a cluster
@@ -88,11 +88,11 @@ kubectl, kubeadmin, minikube, helm
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMzU4ODYsNTg4MTYzNDgzLDExMzU5MT
-UxMzcsMzY0NDQ1ODI1LC0yMDU3Mzk0MTEwLDE3MTIwMTQyNTks
-LTE4OTcxMjAzNzAsMTI1NTY2MjAzNyw0NjkyMzQ1MDYsLTcwNT
-E1Njc0MSwtNDExODU1NzA0LDk4NDM0MjM1MywyMDI0OTM5MTY1
-LDE4MTIxMzgwNzgsMTczNTQyNTk4OSwtMTMzMzYxMzQ4LC04OD
-QzMzI2NDEsMTI3MDE0MTYzMSwzODg3NzYyODAsNjQyODc5NDZd
-fQ==
+eyJoaXN0b3J5IjpbNjE5MzI3MTYyLDU4ODE2MzQ4MywxMTM1OT
+E1MTM3LDM2NDQ0NTgyNSwtMjA1NzM5NDExMCwxNzEyMDE0MjU5
+LC0xODk3MTIwMzcwLDEyNTU2NjIwMzcsNDY5MjM0NTA2LC03MD
+UxNTY3NDEsLTQxMTg1NTcwNCw5ODQzNDIzNTMsMjAyNDkzOTE2
+NSwxODEyMTM4MDc4LDE3MzU0MjU5ODksLTEzMzM2MTM0OCwtOD
+g0MzMyNjQxLDEyNzAxNDE2MzEsMzg4Nzc2MjgwLDY0Mjg3OTQ2
+XX0=
 -->
