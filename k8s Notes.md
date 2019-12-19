@@ -26,12 +26,6 @@ Kubernetes cheatsheet and notes, wrote while learning and working on k8s related
 10. **Volumes**: file storage system, lives with node. Can define external volumes on cloud providers, lives with cloud providers.
 11. **Label**: to classify different kind of pods. 
  
-# Tools
-kubectl, kubeadmin, minikube, helm
-1. **kubectl**: user tool to interact with the cluster
-2. **kubeadm**: admin tool to setup a cluster
-3. **minikube**: setup & run a single node cluster locally for testing and dev purpose.
-5. **helm**:  charts manager
 
 # Manifests
 
@@ -59,28 +53,33 @@ There are 3 types of manifests to expose a service
 
 3. **Ingress** Recommended way for production. 
 
-# Helm
-Helm is like a manager of `charts`, you can use helm to pull, push, deploy a chart and modify (upgrade) a depolyment.
+# Tools
+kubectl, kubeadmin, minikube, helm
+1. **kubectl**: user tool to interact with the cluster
+2. **kubeadm**: admin tool to setup a cluster
+3. **minikube**: setup & run a single node cluster locally for testing and dev purpose.
+4. # Helm
+   Helm is like a manager of `charts`, you can use helm to pull, push, deploy a chart and modify (upgrade) a depolyment.
 
-1. **pull  repo from [remote chart repository](https://helm.sh/docs/topics/chart_repository/) to local:** 
+6. **pull  repo from [remote chart repository](https://helm.sh/docs/topics/chart_repository/) to local:** 
 `helm repo add [repoName] [RepoUrl]`
 `helm update`
-2.  **deploy (install)  chart from local repo**:
+7.  **deploy (install)  chart from local repo**:
 `helm install [repoName]/[chartName] [releaseName]`
 **releaseName** can be auto-generated using `--generate-name`
-3. **upgrade**:
+8. **upgrade**:
  -- get  values.yaml of a chart, stores at values.yaml
 `helm inspect values [chartName] > newValues.yaml`
 -- edit the `newValues.yaml` to describe the upgrade
 -- deploy the upgrade
 `helm upgrade [releaseName] [chartName] -f newValues.yaml` 
-4. **clean/remove the release**:
+9. **clean/remove the release**:
 `helm uninstall [releaseName]`
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDA5ODUxMzYsMTEzNTkxNTEzNywzNj
+eyJoaXN0b3J5IjpbLTEzNjc5MjQxMjMsMTEzNTkxNTEzNywzNj
 Q0NDU4MjUsLTIwNTczOTQxMTAsMTcxMjAxNDI1OSwtMTg5NzEy
 MDM3MCwxMjU1NjYyMDM3LDQ2OTIzNDUwNiwtNzA1MTU2NzQxLC
 00MTE4NTU3MDQsOTg0MzQyMzUzLDIwMjQ5MzkxNjUsMTgxMjEz
