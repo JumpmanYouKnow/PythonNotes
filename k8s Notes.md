@@ -1,14 +1,14 @@
 ---
 title: "Kubernetes Notes"
-date: 2019-12-
+date: 2019-12-18
 ---
 Table of Contents:
-* [Basic Terms](#Basic-Terms/objects)
+* [Basic Terms](#Basic-Terms)
 * [Manifests](#Manifests)
 * [Expose a service]() 
 * [Helm]()
 
-# Basic Terms/objects
+# Basic Terms
 	cluster, context, namespace, node, pods.
 1. **cluster**: physical cluster of physical machine.
 2. **context**: a group of access parameters,  a cluster, a namespace, a user.
@@ -45,7 +45,7 @@ There are 3 types of manifests to expose a service
 3. **Ingress** Recommended way for production. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNDE3ODg2MiwxODEyMTM4MDc4LDE3Mz
+eyJoaXN0b3J5IjpbMjAyNDkzOTE2NSwxODEyMTM4MDc4LDE3Mz
 U0MjU5ODksLTEzMzM2MTM0OCwtODg0MzMyNjQxLDEyNzAxNDE2
 MzEsMzg4Nzc2MjgwLDY0Mjg3OTQ2XX0=
 -->
