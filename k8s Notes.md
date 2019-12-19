@@ -85,7 +85,8 @@ kubectl, kubeadmin, minikube, helm
 6. ## Helm
    **Helm** is like a manager of `charts`, you can use helm to pull, push, deploy a chart and modify (upgrade) a depolyment.
 
-   1. **pull  repo from [remote chart repository](https://helm.sh/docs/topics/chart_repository/) to local:** 
+   1. **pull  repo from [remote chart repository](https://helm.sh/docs/topics/chart_repository/) to local:**
+    
 `helm repo add [repoName] [RepoUrl]`
 `helm update`
 
@@ -104,11 +105,11 @@ kubectl, kubeadmin, minikube, helm
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQxNjM5OTg1LDU4ODE2MzQ4MywxMTM1OT
-E1MTM3LDM2NDQ0NTgyNSwtMjA1NzM5NDExMCwxNzEyMDE0MjU5
-LC0xODk3MTIwMzcwLDEyNTU2NjIwMzcsNDY5MjM0NTA2LC03MD
-UxNTY3NDEsLTQxMTg1NTcwNCw5ODQzNDIzNTMsMjAyNDkzOTE2
-NSwxODEyMTM4MDc4LDE3MzU0MjU5ODksLTEzMzM2MTM0OCwtOD
-g0MzMyNjQxLDEyNzAxNDE2MzEsMzg4Nzc2MjgwLDY0Mjg3OTQ2
-XX0=
+eyJoaXN0b3J5IjpbMTc4MDk5MjQxNyw1ODgxNjM0ODMsMTEzNT
+kxNTEzNywzNjQ0NDU4MjUsLTIwNTczOTQxMTAsMTcxMjAxNDI1
+OSwtMTg5NzEyMDM3MCwxMjU1NjYyMDM3LDQ2OTIzNDUwNiwtNz
+A1MTU2NzQxLC00MTE4NTU3MDQsOTg0MzQyMzUzLDIwMjQ5Mzkx
+NjUsMTgxMjEzODA3OCwxNzM1NDI1OTg5LC0xMzMzNjEzNDgsLT
+g4NDMzMjY0MSwxMjcwMTQxNjMxLDM4ODc3NjI4MCw2NDI4Nzk0
+Nl19
 -->
