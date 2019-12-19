@@ -57,14 +57,14 @@ There are 3 types of manifests to expose a service
 kubectl, kubeadmin, minikube, helm
 1. ## kubectl: 
 	**kubectl** is a user tool to interact with the cluster<br>
-	**get info about the cluster (pod, service, deployment, replicaset, statefulset etc):**
+	1. **get info about the cluster (pod, service, deployment, replicaset, statefulset etc):**
 	everything: `kubectl get all`
 	pods:  	`kubectl get pods`
-	nodes:`kubectl get nodes`<br>
-	**Note:**
+	nodes:`kubectl get nodes`
+	**Note:** can be filtered by namespace or label. 
 	
-	**get logs for a pod**
-usage: `kubectl logs -h`
+	2. **get logs for a pod**
+	usage: `kubectl logs -h`
 	
 
 3. **kubeadm**: admin tool to setup a cluster
@@ -72,29 +72,30 @@ usage: `kubectl logs -h`
 5. ## Helm
    **Helm** is like a manager of `charts`, you can use helm to pull, push, deploy a chart and modify (upgrade) a depolyment.
 
-   **pull  repo from [remote chart repository](https://helm.sh/docs/topics/chart_repository/) to local:** 
+   1. **pull  repo from [remote chart repository](https://helm.sh/docs/topics/chart_repository/) to local:** 
 `helm repo add [repoName] [RepoUrl]`
-`helm update`<br>
-   **deploy (install)  chart from local repo**:
-`helm install [repoName]/[chartName] [releaseName]`<br>
-**releaseName** can be auto-generated using `--generate-name`<br>
- **upgrade**:
+`helm update`
+
+   2. **deploy (install)  chart from local repo**:
+`helm install [repoName]/[chartName] [releaseName]`
+	3. **releaseName** can be auto-generated using `--generate-name` 
+	4. **upgrade**:
  -- get  values.yaml of a chart, stores at values.yaml
 `helm inspect values [chartName] > newValues.yaml`
 -- edit the `newValues.yaml` to describe the upgrade
 -- deploy the upgrade
 `helm upgrade [releaseName] [chartName] -f newValues.yaml` <br>
-**clean/remove the release**:
+	5. **clean/remove the release**:
 `helm uninstall [releaseName]`
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NDI5NTk1OSw1ODgxNjM0ODMsMTEzNT
-kxNTEzNywzNjQ0NDU4MjUsLTIwNTczOTQxMTAsMTcxMjAxNDI1
-OSwtMTg5NzEyMDM3MCwxMjU1NjYyMDM3LDQ2OTIzNDUwNiwtNz
-A1MTU2NzQxLC00MTE4NTU3MDQsOTg0MzQyMzUzLDIwMjQ5Mzkx
-NjUsMTgxMjEzODA3OCwxNzM1NDI1OTg5LC0xMzMzNjEzNDgsLT
-g4NDMzMjY0MSwxMjcwMTQxNjMxLDM4ODc3NjI4MCw2NDI4Nzk0
-Nl19
+eyJoaXN0b3J5IjpbOTA1NDI0MTA2LDU4ODE2MzQ4MywxMTM1OT
+E1MTM3LDM2NDQ0NTgyNSwtMjA1NzM5NDExMCwxNzEyMDE0MjU5
+LC0xODk3MTIwMzcwLDEyNTU2NjIwMzcsNDY5MjM0NTA2LC03MD
+UxNTY3NDEsLTQxMTg1NTcwNCw5ODQzNDIzNTMsMjAyNDkzOTE2
+NSwxODEyMTM4MDc4LDE3MzU0MjU5ODksLTEzMzM2MTM0OCwtOD
+g0MzMyNjQxLDEyNzAxNDE2MzEsMzg4Nzc2MjgwLDY0Mjg3OTQ2
+XX0=
 -->
