@@ -13,14 +13,14 @@ Kubernetes cheatsheet and notes, wrote while learning and working on k8s related
 * [Helm](#Helm)
 
 # Basic Terms
-	cluster, context, namespace, node, pods.
+	some basic termnology w
 1. **cluster**: physical cluster of physical machine.
 2. **context**: a group of access parameters,  a cluster, a namespace, a user.
 3. **namespace**: virtual cluster, use to separate resources across different environments like prod, dev, test.
 4. **node**: a virtual/physical machine
 5. **pod**: a set of containers to orchestrate, minimal object to scale
 6. **container**: docker container runs in pod
-7. **chart**: a collect of files that describes your pod orchestration, that can be used to deploye a set of pod. It's like deploying an image with docker.
+7. **chart**: a collect of files that describes your pod orchestration, that can be used to deploy a set of pods.
 8. **Job**: a wrapper to pod, usually runs a pod that carrying tasks that run only once, like db migration.
 9. **Service**: a wrapper to pod, one or more pods to perform a service.
 10. **Volumes**: file storage system, lives with node. Can define externel volumes on cloud providers, lives with cloud providers.
@@ -65,7 +65,7 @@ Helm is
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUwMDQyMjg1LDEyNTU2NjIwMzcsNDY5Mj
+eyJoaXN0b3J5IjpbNzQ1NTk1NTAxLDEyNTU2NjIwMzcsNDY5Mj
 M0NTA2LC03MDUxNTY3NDEsLTQxMTg1NTcwNCw5ODQzNDIzNTMs
 MjAyNDkzOTE2NSwxODEyMTM4MDc4LDE3MzU0MjU5ODksLTEzMz
 M2MTM0OCwtODg0MzMyNjQxLDEyNzAxNDE2MzEsMzg4Nzc2Mjgw
