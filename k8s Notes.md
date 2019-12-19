@@ -13,12 +13,7 @@ Kubernetes cheatsheet and notes, recorded while learning and working on k8s rela
 * [Helm](#Helm)
 
 
-# Tools
-kubectl, kubeadmin, minikube, helm
-1. **kubectl**: 
-2. **minikube**:
-3. **kubeadmin**
-4. **helm**: Chart
+
 
 # Basic Terms
 	cluster, context, namespace, node, pods.
@@ -34,6 +29,12 @@ kubectl, kubeadmin, minikube, helm
 10. **Volumes**: file storage system, lives with node. Can define externel volumes on cloud providers, lives with cloud providers.
 10.**Label**: To classify different kind of pods. 
  
+ # Tools
+kubectl, kubeadmin, minikube, helm
+1. **kubectl**: 
+2. **minikube**:
+3. **kubeadmin**
+4. **helm**: Manage charts
 
 # Manifests
 manifests usually defined by .yaml or .json file, to manage resources.
@@ -65,8 +66,8 @@ Helm is
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyOTEzNjgyNiw5ODQzNDIzNTMsMjAyND
-kzOTE2NSwxODEyMTM4MDc4LDE3MzU0MjU5ODksLTEzMzM2MTM0
-OCwtODg0MzMyNjQxLDEyNzAxNDE2MzEsMzg4Nzc2MjgwLDY0Mj
-g3OTQ2XX0=
+eyJoaXN0b3J5IjpbODAwODAxMjk4LDk4NDM0MjM1MywyMDI0OT
+M5MTY1LDE4MTIxMzgwNzgsMTczNTQyNTk4OSwtMTMzMzYxMzQ4
+LC04ODQzMzI2NDEsMTI3MDE0MTYzMSwzODg3NzYyODAsNjQyOD
+c5NDZdfQ==
 -->
