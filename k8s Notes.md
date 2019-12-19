@@ -3,7 +3,7 @@ title: "Kubernetes Notes"
 date: 2019-12-18
 ---
 <br>
-Kubernetes cheatsheet and notes, recorded while learning and working on k8s related projects. <br>
+Kubernetes cheatsheet and notes, wrote while learning and working on k8s related projects. <br>
 ## Table of Contents:
 * [Basic Terms](#Basic-Terms)
 *  [Tools](#Tools)
@@ -64,8 +64,8 @@ Helm is
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNTE1Njc0MSwtNDExODU1NzA0LDk4ND
-M0MjM1MywyMDI0OTM5MTY1LDE4MTIxMzgwNzgsMTczNTQyNTk4
-OSwtMTMzMzYxMzQ4LC04ODQzMzI2NDEsMTI3MDE0MTYzMSwzOD
-g3NzYyODAsNjQyODc5NDZdfQ==
+eyJoaXN0b3J5IjpbNDY5MjM0NTA2LC03MDUxNTY3NDEsLTQxMT
+g1NTcwNCw5ODQzNDIzNTMsMjAyNDkzOTE2NSwxODEyMTM4MDc4
+LDE3MzU0MjU5ODksLTEzMzM2MTM0OCwtODg0MzMyNjQxLDEyNz
+AxNDE2MzEsMzg4Nzc2MjgwLDY0Mjg3OTQ2XX0=
 -->
