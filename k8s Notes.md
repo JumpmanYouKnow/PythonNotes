@@ -2,10 +2,8 @@
 title: "Kubernetes Notes"
 date: 2019-12-18
 ---
-
-
-Kubernetes cheatsheet and notes, recorded while learning and working on k8s related projects.
-
+<br>
+Kubernetes cheatsheet and notes, recorded while learning and working on k8s related projects. <br>
 ## Table of Contents:
 * [Basic Terms](#Basic-Terms)
 *  [Tools](#Tools)
@@ -35,8 +33,8 @@ kubectl, kubeadmin, minikube, helm
 4. **helm**: Manage charts
 
 # Manifests
-manifests usually defined by .yaml or .json file, to manage resources.
 
+manifests usually defined by .yaml or .json file, to manage resources.
 
 	- Deployment: deploy pods based on spec
 	- ReplicaSet: deploy pods as replica 
@@ -47,6 +45,8 @@ manifests usually defined by .yaml or .json file, to manage resources.
 
 
 # Expose A Service
+
+
 1. Create a ```Kind:Service ``` yaml, and define which pods your service is using (by using label)
 
 There are 3 types of manifests to expose a service
@@ -64,7 +64,7 @@ Helm is
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NzI1NzIxMSwtNDExODU1NzA0LDk4ND
+eyJoaXN0b3J5IjpbLTcwNTE1Njc0MSwtNDExODU1NzA0LDk4ND
 M0MjM1MywyMDI0OTM5MTY1LDE4MTIxMzgwNzgsMTczNTQyNTk4
 OSwtMTMzMzYxMzQ4LC04ODQzMzI2NDEsMTI3MDE0MTYzMSwzOD
 g3NzYyODAsNjQyODc5NDZdfQ==
