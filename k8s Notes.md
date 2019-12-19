@@ -4,6 +4,7 @@ date: 2019-12-18
 ---
 <br>
 Kubernetes cheatsheet and notes, wrote while learning and working on k8s related projects. <br>
+
 ## Table of Contents:
 * [Basic Terms](#Basic-Terms)
 *  [Tools](#Tools)
@@ -28,9 +29,9 @@ Kubernetes cheatsheet and notes, wrote while learning and working on k8s related
 # Tools
 kubectl, kubeadmin, minikube, helm
 1. **kubectl**: 
-2. **minikube**:
-3. **kubeadmin**
-4. **helm**: Manage charts
+2. **kubeadmin**
+3. **minikube**:
+5. **helm**: Manage charts
 
 # Manifests
 
@@ -64,8 +65,9 @@ Helm is
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY5MjM0NTA2LC03MDUxNTY3NDEsLTQxMT
-g1NTcwNCw5ODQzNDIzNTMsMjAyNDkzOTE2NSwxODEyMTM4MDc4
-LDE3MzU0MjU5ODksLTEzMzM2MTM0OCwtODg0MzMyNjQxLDEyNz
-AxNDE2MzEsMzg4Nzc2MjgwLDY0Mjg3OTQ2XX0=
+eyJoaXN0b3J5IjpbNzQzMzEzMjczLDQ2OTIzNDUwNiwtNzA1MT
+U2NzQxLC00MTE4NTU3MDQsOTg0MzQyMzUzLDIwMjQ5MzkxNjUs
+MTgxMjEzODA3OCwxNzM1NDI1OTg5LC0xMzMzNjEzNDgsLTg4ND
+MzMjY0MSwxMjcwMTQxNjMxLDM4ODc3NjI4MCw2NDI4Nzk0Nl19
+
 -->
