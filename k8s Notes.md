@@ -40,6 +40,7 @@ manifests usually defined by .yaml or .json file, to manage (describe) resources
 	- Volume Claim Chain: To better manage a externel volume, to use a volume, must first claim it.
 	- Network Policy: Define a network policy to a set of pods(by label) like which set of pods(by label) or users(by namespace) can access.
 	- Secret: some secret you don't want others to know: ssh key, username/password
+	- Ingress:
 
 
 # Expose A Service
@@ -49,11 +50,11 @@ manifests usually defined by .yaml or .json file, to manage (describe) resources
 
 There are 3 types of manifests to expose a service
 
-1. **NodePort**:  Assign the service to a port, access the service by port number. Ex:`<NodeIP>:<PortNumber>`, PortNumber is fixed, NodeIP could be any node that the service is running on. pods traffic is balanced in the same node, but not balanced in the different nodes . This is not good for production, but good for local testing by using kube-proxy.
+1. **NodePort:**  Assign the service to a port, access the service by port number. Ex:`<NodeIP>:<PortNumber>`, PortNumber is fixed, NodeIP could be any node that the service is running on. pods traffic is balanced in the same node, but not balanced in the different nodes . This is not good for production, but good for local testing by using kube-proxy.
 
-2. **LoadBalancer** Similar to NodePort, but expose the all `<NodeIP>:<PortNumber>=`to a external load balancer. Node traffic is balanced.
+2. **LoadBalancer:** Similar to NodePort, but expose the all `<NodeIP>:<PortNumber>=`to a external load balancer. Node traffic is balanced.
 
-3. **Ingress** Recommended way for production. 
+3. **Ingress:** Recommended way for production. 
 
 # Tools
 kubectl, kubeadmin, minikube, helm
@@ -98,13 +99,13 @@ kubectl, kubeadmin, minikube, helm
  
 4. ## minikube: 
 	 **Minikube**: setup & run a single node cluster locally for testing and dev purpose.
-	 1. <br>
-	 2. <br>
+	 1.  usage: `minikube -h`
+	 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyODAwNDIyNCw1ODgxNjM0ODMsMTEzNT
+eyJoaXN0b3J5IjpbMTg0NjI5MTUwOCw1ODgxNjM0ODMsMTEzNT
 kxNTEzNywzNjQ0NDU4MjUsLTIwNTczOTQxMTAsMTcxMjAxNDI1
 OSwtMTg5NzEyMDM3MCwxMjU1NjYyMDM3LDQ2OTIzNDUwNiwtNz
 A1MTU2NzQxLC00MTE4NTU3MDQsOTg0MzQyMzUzLDIwMjQ5Mzkx
