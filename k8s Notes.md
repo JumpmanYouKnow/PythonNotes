@@ -9,7 +9,6 @@ Kubernetes cheatsheet and notes, recorded while learning and working on k8s rela
 * [Basic Terms](#Basic-Terms)
 * [Manifests](#Manifests)
 * [Expose A Service](#Expose-A-Service)
-* [Expose A Service](#Expose A Service) 
 * [Helm](#Helm)
 
 # Basic Terms
@@ -53,8 +52,8 @@ There are 3 types of manifests to expose a service
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTI0MDg2NjMsOTg0MzQyMzUzLDIwMj
-Q5MzkxNjUsMTgxMjEzODA3OCwxNzM1NDI1OTg5LC0xMzMzNjEz
-NDgsLTg4NDMzMjY0MSwxMjcwMTQxNjMxLDM4ODc3NjI4MCw2ND
-I4Nzk0Nl19
+eyJoaXN0b3J5IjpbNDgyMzUxMDc3LDk4NDM0MjM1MywyMDI0OT
+M5MTY1LDE4MTIxMzgwNzgsMTczNTQyNTk4OSwtMTMzMzYxMzQ4
+LC04ODQzMzI2NDEsMTI3MDE0MTYzMSwzODg3NzYyODAsNjQyOD
+c5NDZdfQ==
 -->
