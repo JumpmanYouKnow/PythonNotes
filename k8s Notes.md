@@ -61,7 +61,7 @@ There are 3 types of manifests to expose a service
 # Tools
 kubectl, kubeadmin, minikube, helm
 
-1. ## Kubectl: 
+1. ## Kubectl
 	**Kubectl** is a user tool to interact with the cluster
 	1. **get info about the cluster (pod, service, deployment, replicaset, statefulset etc):**<br>
 	everything: `kubectl get all`
@@ -94,13 +94,13 @@ kubectl, kubeadmin, minikube, helm
 	5. **clean/remove the release:**<br>
 `helm uninstall [releaseName]`
 
-3. ## Kubeadm:
+3. ## Kubeadm
 	 **Kubeadm** is admin tool to setup a cluster
 	 1. <br>
 	 2. <br>
 	
  
-4. ## Minikube: 
+4. ## Minikube
 	 **Minikube**: setup & run a single node cluster locally for testing and dev purpose.
 	 1.  usage: `minikube -h`
 	2.  **usual workflow**:<br>
@@ -110,11 +110,11 @@ kubectl, kubeadmin, minikube, helm
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTM4ODQ4MSw4ODQ1ODEzMjksNTg4MT
-YzNDgzLDExMzU5MTUxMzcsMzY0NDQ1ODI1LC0yMDU3Mzk0MTEw
-LDE3MTIwMTQyNTksLTE4OTcxMjAzNzAsMTI1NTY2MjAzNyw0Nj
-kyMzQ1MDYsLTcwNTE1Njc0MSwtNDExODU1NzA0LDk4NDM0MjM1
-MywyMDI0OTM5MTY1LDE4MTIxMzgwNzgsMTczNTQyNTk4OSwtMT
-MzMzYxMzQ4LC04ODQzMzI2NDEsMTI3MDE0MTYzMSwzODg3NzYy
-ODBdfQ==
+eyJoaXN0b3J5IjpbLTE5ODgzNzUzMjEsODg0NTgxMzI5LDU4OD
+E2MzQ4MywxMTM1OTE1MTM3LDM2NDQ0NTgyNSwtMjA1NzM5NDEx
+MCwxNzEyMDE0MjU5LC0xODk3MTIwMzcwLDEyNTU2NjIwMzcsND
+Y5MjM0NTA2LC03MDUxNTY3NDEsLTQxMTg1NTcwNCw5ODQzNDIz
+NTMsMjAyNDkzOTE2NSwxODEyMTM4MDc4LDE3MzU0MjU5ODksLT
+EzMzM2MTM0OCwtODg0MzMyNjQxLDEyNzAxNDE2MzEsMzg4Nzc2
+MjgwXX0=
 -->
